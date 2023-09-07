@@ -70,11 +70,19 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "73adb722-dac6-4b6b-9e37-7da02d229d5e": {
+      "type": "promotions",
+      "settings": {
+        "promotions_policies_title": "Septiembre 2023¡Viva México, viva el ADN MX!",
+        "promotions_policies": ""
+      }
     }
   },
   "order": [
     "template-header",
     "main",
-    "7d2c5ef2-636d-4564-b29d-d7c427e00ca6"
+    "7d2c5ef2-636d-4564-b29d-d7c427e00ca6",
+    "73adb722-dac6-4b6b-9e37-7da02d229d5e"
   ]
 }

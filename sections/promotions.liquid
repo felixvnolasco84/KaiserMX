@@ -1,0 +1,88 @@
+{{ 'promotions.css' | asset_url | stylesheet_tag }}
+
+
+<section class="promotions-policies">
+    <h2>{{ section.settings.promotions_policies_title }}</h2>
+    <ul>
+        <li>            
+            <p>{{ section.settings.policy_description_1 }}</p>
+        </li>
+        <li>            
+            <p>{{ section.settings.policy_description_2 }}</p>
+        </li>
+        <li>            
+            <p>{{ section.settings.policy_description_3 }}</p>
+        </li>
+        <li>            
+            <p>{{ section.settings.policy_description_4 }}</p>
+        </li>
+        <li>            
+            <p>{{ section.settings.policy_description_5 }}</p>
+        </li>
+        <li>            
+            <p>{{ section.settings.policy_description_6 }}</p>
+        </li>     
+    </ul>
+</section>
+
+{% schema %}
+{
+"name": "Promotions Policies",
+"settings": [
+{
+"type": "text",
+"label": "Section Title",
+"id": "promotions_policies_title",
+"default": "Promotions Policies"
+},
+{
+"type": "text",
+"label": "Promotion Description 1",
+"id": "policy_description_1",
+"default": "Aplica el 15% de descuento en producto seleccionado de las categorias Bafles y Bocinas."
+},
+{
+"type": "text",
+"label": "Promotion Description 2",
+"id": "policy_description_2",
+"default": "Aplica el 10% de descuento en producto seleccionado en la cateoría Micrófonos."
+},
+{
+"type": "text",
+"label": "Promotion Description 3",
+"id": "policy_description_3",
+"default": "Válido en producto seleccionado comprando en línea."
+},
+{
+"type": "text",
+"label": "Promotion Description 4",
+"id": "policy_description_4",
+"default": "No aplica con otras promociones y/o cupones."
+},
+{
+"type": "text",
+"label": "Promotion Description 5",
+"id": "policy_description_5",
+"default": "Vigencia de la promoción: 08 al 15 de septiembre del 2023."
+},
+{
+"type": "text",
+"label": "Promotion Description 6",
+"id": "policy_description_6",
+"default": "Válida en la República Mexicana."
+},
+{
+"type": "text",
+"label": "Disclaimer",
+"id": "disclaimer"
+}
+],
+"presets": [
+{
+"name": "Promotions Policies",
+"category": "Custom"
+}
+]
+}
+
+{% endschema %}

@@ -1,0 +1,111 @@
+{{ 'promotions.css' | asset_url | stylesheet_tag }}
+<section class="promotions-policies">
+    <h2>{{ section.settings.promotions_policies_title }}</h2>
+    <p>{{ section.settings.promotions_policies_description }}</p>
+    <ul>
+        <li>
+            <p>{{ section.settings.policy_description_1 }}</p>
+        </li>
+        <li>
+            <p>{{ section.settings.policy_description_2 }}</p>
+        </li>
+        <li>
+            <p>{{ section.settings.policy_description_3 }}</p>
+        </li>
+        <li>
+            <p>{{ section.settings.policy_description_4 }}</p>
+        </li>
+        <li>
+            <p>{{ section.settings.policy_description_5 }}</p>
+        </li>
+        <li>
+            <p>{{ section.settings.policy_description_6 }}</p>
+        </li>        
+    </ul>
+</section>
+
+{% schema %}
+{
+"name": "Stc Policies",
+"settings": [
+{
+"type": "text",
+"label": "Section Title",
+"id": "promotions_policies_title",
+"default": "Static Policies"
+},
+{
+"type": "text",
+"label": "Section Description",
+"id": "promotions_policies_description",
+"default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+},
+{
+"type": "text",
+"label": "Promotion Description 1",
+"id": "policy_description_1",
+"default": "Cuando el usuario viole los términos y condiciones."
+},
+{
+"type": "text",
+"label": "Promotion Description 2",
+"id": "policy_description_2",
+"default": "Cuando el usuario no cubra el importe total del pedido solicitado."
+},
+{
+"type": "text",
+"label": "Promotion Description 3",
+"id": "policy_description_3",
+"default": "Cuando el usuario pretenda causar daños a KAISER o a un tercero."
+},
+{
+"type": "text",
+"label": "Promotion Description 4",
+"id": "policy_description_4",
+"default": "Cuando se detecte la posible comisión de un delito."
+},
+{
+"type": "text",
+"label": "Promotion Description 5",
+"id": "policy_description_5",
+"default": "Cuando por errores involuntarios en nuestros sistemas se lancen promociones no autorizadas en perjuicio del negocio."
+},
+{
+"type": "text",
+"label": "Promotion Description 6",
+"id": "policy_description_6",
+"default": "Cuando se detecte que las promociones lanzadas por nuestros sistemas tengan un descuento mayor al 90% sobre el valor del pedido."
+},
+{
+"type": "text",
+"label": "Promotion Description 7",
+"id": "policy_description_6",
+"default": "Cuando la conducta del usuario afecte la experiencia de otros clientes."
+},
+{
+"type": "text",
+"label": "Promotion Description 8",
+"id": "policy_description_6",
+"default": "Cuando la conducta del usuario afecte o dañe la reputación de KAISER."
+},
+{
+"type": "text",
+"label": "Promotion Description 9",
+"id": "policy_description_6",
+"default": "Cuando el producto solicitado no esté disponible."
+},
+{
+"type": "text",
+"label": "Disclaimer",
+"id": "disclaimer"
+}
+],
+"presets": [
+{
+"name": "Stc Policies",
+"category": "Custom"
+}
+]
+}
+
+{% endschema %}

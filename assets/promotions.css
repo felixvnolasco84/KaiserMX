@@ -1,0 +1,7 @@
+.promotions-policies {
+    max-width: 1560px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
