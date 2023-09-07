@@ -1,0 +1,43 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_text": "ENVÍO GRATIS A TODO MÉXICO DESDE $499",
+        "announcement_bar_link": "",
+        "show_language_switcher": false,
+        "show_currency_switcher": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/logo-rojo-kaiser.png",
+        "logo_height_range": 32,
+        "logo_height_range_mobile": 22,
+        "style": "style1",
+        "header_shadow": "header--shadow-none",
+        "menu": "main-menu",
+        "mobile_secondary_menu": "",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "predictive_search_enabled": true,
+        "search_menu": "main-menu"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

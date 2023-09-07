@@ -1,0 +1,216 @@
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer-top-bar": {
+      "type": "footer-top-bar",
+      "disabled": true,
+      "custom_css": [
+        "{font-family: ALFARNTEXT; font-style: normal;}"
+      ],
+      "settings": {
+        "footer_top_bar": true,
+        "text": "CONTáCTANOS",
+        "button_text": "contacto",
+        "button_link": ""
+      }
+    },
+    "09bf379a-5a30-4dea-b916-b73913e93477": {
+      "type": "email-signup",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: ALFARNTEXT; font-style: normal; font-size: 40px;}"
+      ],
+      "settings": {
+        "heading": "Suscríbete a Nuestro Newsletter",
+        "description": "<p>Consulta nuestra Política de Privacidad<\/p>",
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "color_border": "#dedede",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7": {
+      "type": "tabbed-content",
+      "disabled": true,
+      "blocks": {
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-0": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Faceboook",
+            "icon": "none",
+            "text": "<p>Siguenos en redes socialles<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        },
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-1": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Tab label",
+            "icon": "none",
+            "text": "<p>Add a short description for this tabbed section<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        },
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-2": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Tab label",
+            "icon": "none",
+            "text": "<p>Add a short description for this tabbed section<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-0",
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-1",
+        "sections--17937704354088__c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7-1683129449428b64b3-2"
+      ],
+      "settings": {
+        "heading": "Tabbed content",
+        "description": "<p>Add a short description for this section<\/p>",
+        "text_width": "medium",
+        "tab_alignment": "left",
+        "text_alignment": "left",
+        "color_bg": "#ffffff",
+        "color_tabs": "#151515",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f6d771e6-bde6-466b-9ed5-c76b2da7b4c4": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".redes {justify-content: space-between; gap: 10px; display: flex; background-color: #dcdcdc; padding: 50px 150px;}",
+        ".redes h1 {margin-bottom: 0; color: black; font-size: 40px;}",
+        ".redes .box {gap: 20px; align-items: center; display: flex;}",
+        ".redes .box .text-redes p {margin-bottom: 0; font-size: 25px;}",
+        "@media only screen and (max-width: 1000px) {.redes {text-align: center; display: block; padding: 25px 25px; } .redes h1 {margin-bottom: 0; font-size: 20px; } .redes .box {display: flex; justify-content: center; padding: 10px 0; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"redes\">\n   <div class=\"box\"><h1>SIGUENOS EN REDES SOCIALES<\/h1><\/div>\n <div class=\"box\">\n<div class=\"icons-redes\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0676\/8489\/2968\/files\/logotipo-de-la-aplicacion-de-facebook.png?v=1683857066\">\n<\/div>\n<div class=\"text-redes\"><p>Facebook<\/p><\/div>\n<\/div>\n <div class=\"box\">\n<div class=\"icons-redes\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0676\/8489\/2968\/files\/signo-de-twitter.png?v=1683857413\">\n<\/div>\n<div class=\"text-redes\"><p>Twitter<\/p><\/div>\n<\/div>\n <div class=\"box\">\n<div class=\"icons-redes\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0676\/8489\/2968\/files\/instagram.png?v=1683857474\">\n<\/div><div class=\"text-redes\"><p>Instagram<\/p><\/div><\/div>\n <div class=\"box\">\n<div class=\"icons-redes\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0676\/8489\/2968\/files\/youtube.png?v=1683857536\">\n<\/div><div class=\"text-redes\"><p>YouTube<\/p><\/div><\/div>\n          \n        <\/div>"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+          "type": "social",
+          "settings": {
+            "column_size": "small",
+            "title": "SIGUENOS EN REDES SOCIALES"
+          }
+        },
+        "d308527d-0cfc-449f-8f8e-b595359aaeeb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "column_size": "large",
+            "title": "MÉXICO SUENA EN KAISER",
+            "retina": true,
+            "text": "<p>Aumenta el ambiente en tus reuniones, reproduciendo tu música favorita con una excelente calidad de sonido, gracias a nuestros audífonos, bafles, bocinas, barras de sonido y otros electrónicos de máxima potencia y precisión.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "c796f0b6-9eff-476f-94f2-c3965e9258ee": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "AYUDA",
+            "menu": "ayuda"
+          }
+        },
+        "0034910f-c826-42b5-8b15-43dd00756dd8": {
+          "type": "signup",
+          "disabled": true,
+          "settings": {
+            "column_size": "small",
+            "title": "",
+            "text": "<p>Add a text to attract more customers to <strong>sign up!<\/strong><\/p>"
+          }
+        },
+        "10a3c40d-c24b-4dc1-8e0b-73fbec620250": {
+          "type": "text",
+          "settings": {
+            "column_size": "small",
+            "title": "DISTRIBUIDORES KAISER",
+            "retina": true,
+            "text": "<p>Contáctenos sobre cualquier tema relacionado con nuestra empresa o nuestros servicios.<\/p>",
+            "button_text": "DISTRIBUIDORES",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "38f71f5f-25d1-4910-8261-033221967b4e": {
+          "type": "signup",
+          "settings": {
+            "column_size": "small",
+            "title": "",
+            "text": "<p>Suscríbete a nuestro Newsletter.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b4a487aa-4195-4ed2-88bc-723db31735ae",
+        "d308527d-0cfc-449f-8f8e-b595359aaeeb",
+        "c796f0b6-9eff-476f-94f2-c3965e9258ee",
+        "0034910f-c826-42b5-8b15-43dd00756dd8",
+        "10a3c40d-c24b-4dc1-8e0b-73fbec620250",
+        "38f71f5f-25d1-4910-8261-033221967b4e"
+      ],
+      "settings": {
+        "copyright_text": "®",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "show_payment_icons": false
+      }
+    },
+    "d933023d-77ec-4f9c-b424-ee7a7631bd1f": {
+      "type": "contact-form",
+      "disabled": true,
+      "blocks": {
+        "sections--17937704354088__d933023d-77ec-4f9c-b424-ee7a7631bd1f-1683128819ca8f1bf1-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        },
+        "sections--17937704354088__d933023d-77ec-4f9c-b424-ee7a7631bd1f-1683128819ca8f1bf1-1": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "sections--17937704354088__d933023d-77ec-4f9c-b424-ee7a7631bd1f-1683128819ca8f1bf1-0",
+        "sections--17937704354088__d933023d-77ec-4f9c-b424-ee7a7631bd1f-1683128819ca8f1bf1-1"
+      ],
+      "settings": {
+        "heading": "Contact form",
+        "description": "<p>Add a short description for this section<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "footer-top-bar",
+    "09bf379a-5a30-4dea-b916-b73913e93477",
+    "c434ecb0-45bb-4dee-a5c5-fac0f3ed52e7",
+    "f6d771e6-bde6-466b-9ed5-c76b2da7b4c4",
+    "footer",
+    "d933023d-77ec-4f9c-b424-ee7a7631bd1f"
+  ]
+}

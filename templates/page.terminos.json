@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "25dc9037-2a73-4756-a81b-ee81a6f21804": {
+      "type": "contact-form",
+      "blocks": {
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        },
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-0",
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Facturación",
+        "description": "<p>Contáctenos sobre cualquier tema relacionado con nuestra empresa o nuestros servicios.<\/p>",
+        "show_phone_number": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "TERMINOS Y CONDICIONES",
+            "size": "h3"
+          }
+        },
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>TÉRMINOS Y CONDICIONES<\/strong><\/p><p>Al ingresar y utilizar este portal de Internet, cuyo nombre de dominio es <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> propiedad de <strong>GRUPO COMRAP, S.A. DE C.V.<\/strong> que en lo sucesivo se denominará  <em><strong>KAISER®<\/strong><\/em>, el usuario está aceptando los <strong>TÉRMINOS Y CONDICIONES<\/strong> de uso contenidos en este convenio y declara expresamente su aceptación utilizando para tal efecto medios<br\/>electrónicos, en términos de lo dispuesto por el artículo 1803 del Código Civil Federal.<\/p><p>La sola utilización de dicha página de Internet le otorga al público en general la condición de usuario (en adelante, el “Usuario”) e implica la aceptación, plena e incondicional, de todas y cada una de las condiciones generales y particulares incluidas en estos <strong>TÉRMINOS Y CONDICIONES<\/strong> publicados por <em><strong>KAISER®<\/strong><\/em> en el momento mismo en que el usuario acceda al sitio web. <\/p><p>Los presentes términos y condiciones regulan el uso<br\/>de la relación entre <strong>GRUPO COMRAP, S. A. DE C. V. <\/strong>y el<br\/>Usuario, a través del portal de internet y páginas ligadas al mismo, en la dirección  <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> y el Usuario.<br\/>El Usuario al acceder a <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> acepta de<br\/>manera tácita e incondicional sujetarse a los TÉRMINOS Y CONDICIONES contenidos<br\/>en este convenio. Por lo anterior se recomienda cada vez que acceda al portal de <em><strong>KAISER® <\/strong><\/em>lea cuidadosamente los <strong>TÉRMINOS Y<br\/>CONDICIONES<\/strong> ya que el mismo puede ser actualizado o modificado.<\/p><p>En este sentido, <em><strong>KAISER®<\/strong><\/em> otorga<br\/>y concede al Usuario el derecho no exclusivo, revocable y no transferible de ver y utilizar el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> de<br\/>conformidad con los <strong>TÉRMINOS Y CONDICIONES<\/strong> que aquí se<br\/>estipulan. <\/p><p>El Usuario sólo podrá imprimir y\/o copiar cualquier información contenida o publicada en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>  exclusivamente para uso personal, queda terminantemente prohibido el uso comercial de dicha información. En caso de ser persona moral se sujetará a lo dispuesto por el artículo 148, fracción IV de la Ley Federal del Derecho de Autor.<br\/><br\/>La reimpresión, publicación, distribución, asignación, sub licencia, venta, reproducción electrónica o por otro medio, parcial o total, de cualquier información, documento o gráfico que aparezca en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>, para cualquier uso distinto al personal está expresamente prohibido al Usuario, a menos de que cuente con la autorización previa y por escrito de  <em><strong>KAISER®<\/strong><\/em>.<\/p><p>El Usuario y <em><strong>KAISER®<\/strong><\/em> están<br\/>de acuerdo en que la utilización del sitio web  <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>  se sujetará a las siguientes reglas:<\/p><p>El Usuario reconoce y acepta que la información publicada o contenida en dicho sitio será claramente identificada de forma tal que se reconozca que la misma proviene y ha sido generada por <em><strong>KAISER®<\/strong><\/em><em>, <\/em>no<br\/>obstante, la información, conceptos y opiniones publicadas en dicho sitio no necesariamente reflejan la posición de <em><strong>KAISER®<\/strong><\/em><strong>, <\/strong>ni de alguno<br\/>de sus empleados o directores. Por esta razón, <em><strong>KAISER® <\/strong><\/em>no se hace<br\/>responsable por ninguna de las informaciones, opiniones y conceptos que se emitan en la página web referida. Asimismo, <em><strong>KAISER® <\/strong><\/em>no se hace responsable de la información contenida en la página de internet, incluidas las subpáginas, en el entendido de que el uso y seguimiento de la misma es bajo<br\/>riesgo y responsabilidad del Usuario.<\/p><p><em><strong>KAISER® <\/strong><\/em>se reserva el derecho de bloquear el acceso o remover en forma parcial o total toda<br\/>información, comunicación o material que a su exclusivo juicio pueda resultar:<br\/>i) abusivo, difamatorio u obsceno; ii) fraudulento, artificioso o engañoso;<br\/>iii) violatorio de derechos de autor, marcas, confidencialidad, secretos<br\/>industriales o cualquier derecho de propiedad intelectual de un tercero; iv)<br\/>ofensivo o; v) que de cualquier forma contravenga lo establecido en este<br\/>convenio. Si el Usuario desea obtener mayor información de un tema en<br\/>específico proveído por <em><strong>KAISER®<\/strong><\/em> o sus proveedores<br\/>deberá consultarlo directamente con cada uno de ellos, según corresponda, y\/o<br\/>con un especialista en la materia.<\/p><p>Los Usuarios reconocen que, al proporcionar la<br\/>información de carácter personal requerida en alguno de los servicios que se prestan en este sitio web, otorgan a <em><strong>KAISER®<\/strong><\/em> la autorización<br\/>señalada en el artículo 109 de la Ley Federal del Derecho de Autor. En todos los casos, los Usuarios responderán por la veracidad de la información proporcionada a <em><strong>KAISER®<\/strong><\/em>.<br\/><br\/>El sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>, sus logotipos y todo el material que aparece en dicho sitio, son marcas, nombres de dominio,<br\/>nombres comerciales y obras artísticas propiedad de sus respectivos titulares y<br\/>están protegidos por los tratados internacionales y las leyes aplicables en materia<br\/>de propiedad intelectual y derechos de autor. Los derechos de autor sobre el contenido, organización, recopilación, compilación, información, logotipos, fotografías, imágenes, programas, aplicaciones, y en general cualquier información contenida o publicada en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>  se encuentran debidamente protegidos a favor de <em><strong>KAISER®<\/strong><\/em>, sus afiliados, proveedores y\/o de sus respectivos propietarios, de conformidad con<br\/>la legislación aplicable en materia de propiedad intelectual e industrial. Se<br\/>prohíbe expresamente al usuario modificar, alterar o suprimir, ya sea en forma total o parcial, los avisos, marcas, nombres comerciales, señas, anuncios, logotipos o en general cualquier indicación que se refiera a la propiedad de la<br\/>información contenida en el sitio señalado.<\/p><p>El Usuario reconoce y acepta que <em><strong>KAISER®<\/strong><\/em> es<br\/>una organización independiente de terceros patrocinadores y anunciantes cuya<br\/>información, imágenes, anuncios y demás material publicitario o promocional<br\/>puede ser publicado en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>. El Usuario<br\/>reconoce y acepta que el material publicitario no forma parte del contenido<br\/>principal que se publica en dicho sitio. Asimismo, reconoce y acepta con este<br\/>acto que este material se encuentra protegido por las leyes que en materia de<br\/>propiedad intelectual e industrial resulten aplicables.<\/p><p><em><strong>KAISER®<\/strong><\/em> no garantiza<br\/>que la página señalada satisfaga los requerimientos del Usuario o que los<br\/>productos que en ella se ofrecen sean seguros o estén exentos de errores, así<br\/>mismo no garantiza o avala en ninguna forma la veracidad, precisión, legalidad,<br\/>moralidad o ninguna otra característica del contenido del material que se<br\/>publique en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> por lo tanto<br\/>se libera de cualquier responsabilidad y condiciones, tanto expresas como<br\/>implícitas en relación con la información contenida o disponible en o a través<br\/>de esta página web; incluyendo la disponibilidad de uso del sitio web  <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>.<\/p><p><em><strong>KAISER® <\/strong><\/em>  podrá en<br\/>cualquier momento y cuando lo considere conveniente, sin necesidad de avisar al<br\/>usuario, realizar correcciones, adiciones, mejoras o modificaciones al<br\/>contenido, presentación, información, servicios, áreas, bases de datos y demás<br\/>elementos de dicho sitio, sin que ello de lugar ni derecho a ninguna<br\/>reclamación o indemnización, ni que esto implique reconocimiento de<br\/>responsabilidad alguna a favor del Usuario.<\/p><p><em><strong>KAISER®<\/strong><\/em> se reserva el<br\/>derecho de modificar los <strong>TÉRMINOS Y CONDICIONES<\/strong> de este<br\/>convenio en cualquier momento, siendo efectivas dichas modificaciones de forma<br\/>inmediata por medio de la publicación en el sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> del convenio modificado.<\/p><p>De esta forma, el usuario está de acuerdo en revisar dicho convenio periódicamente con la finalidad de mantenerse al tanto de dichas modificaciones. No obstante, <br\/>cada vez que el Usuario acceda al sitio señalado se considerará como una aceptación absoluta a las modificaciones del presente convenio.<\/p><p>Estos <strong>TÉRMINOS Y CONDICIONES<\/strong>,<br\/>constituyen el acuerdo íntegro entre las partes, y sustituye cualquier otro<br\/>acuerdo o convenio celebrado con anterioridad.<\/p><p>Única y exclusivamente para los efectos relacionados con el tratamiento y protección de<br\/>sus datos personales, se le informa que la entidad responsable de ellos es la denominada <strong>GRUPO COMRAP, S. A. DE C. V.<\/strong>, con domicilio en <strong>CALLE PELÍCANO NÚMERO 79, COLONIA GRANJAS MODERNAS, ALCALDÍA GUSTAVO A. MADERO, C. P. 07460, CIUDAD DE MÉXICO; <\/strong>usted podrá ejercitar en cualquier momento los derechos de acceso, rectificación, cancelación y oposición a dichos datos,<br\/>para lo cual deberá ponerse en contacto con nosotros a través de la línea telefónica  <strong>55<\/strong> <strong>5118 4950<\/strong>, o al<br\/>correo electrónico <a href=\"mailto:privacidad@kaiser.shop\">privacidad@kaiser.shop<\/a>. <\/p><p>Nuestros precios están sujetos a cambio sin previo aviso.  <\/p><p>Los precios publicados incluyen IVA.<\/p><p>La disponibilidad de los productos y las promociones están sujetas a cambios sin previo aviso. <\/p><p>Los pagos se pueden hacer a través de las opciones que nos ofrecen las siguientes aplicaciones:<\/p><p>Mercado<br\/>Pago<br\/>SPEI<br\/>PayPal<br\/>Kueski Pay<\/p><p>Otras promociones serán en función a los descuentos que se publiquen sobre los precios ya sea en la página o por medio de los códigos promocionales que se otorguen.<\/p><p><strong>Monto mínimo<br\/>de compra para envío gratis y tiempos de entrega.<\/strong><\/p><p>El monto mínimo de compra para envío gratis es de $499.00 (CUATROCIENTOS NOVENTA Y NUEVE PESOS 00\/100 M.N.) con IVA<br\/>incluido.<\/p><p> <em><strong>KAISER®<\/strong><\/em> se compromete a entregar en un lapso de 3 a 5 días hábiles,<br\/>dependiendo del nivel de demanda y de la cobertura de los proveedores del<br\/>servicio de mensajería o paquetería. Sujetos a cambios sin previo aviso.<\/p><p>Se proporcionará un código al cliente en la página <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a>, a través de la sección de envíos o de correo electrónico para que pueda rastrear la guía y dar seguimiento a la entrega. <\/p><p> En los casos en que haya limitaciones geográficas o si el<br\/>código postal del cliente no está en zona de cobertura de nuestros proveedores, se notificará al cliente por medio de correo electrónico para que ocurra a la oficina regional o local de nuestros proveedores de paquetería y envíos de mensajería más cercana a su domicilio o bien a nuestras oficinas de Pelicano 79, Colonia Granjas Modernas, Alcaldía Gustavo A. Madero, C.P. 07460, Ciudad de México.<\/p><p> Los clientes podrán hacer uso de la opción <em>Click & Collect<\/em> a fin de solicitar el envío de los productos adquiridos a través de<br\/><a href=\"http:\/\/www.mitzu.com\">www.kaiser.shop <\/a>a la Sucursal Participante de su preferencia. <br\/><br\/>El tiempo de entrega de la mercancía adquirida a la Sucursal Participante<br\/>seleccionada será de 3 a 5 días hábiles. Una vez que la mercancía se encuentre en la Sucursal Participante, el cliente recibirá un correo electrónico confirmándole el arribo de la mercancía. A fin de recolectar la mercancía adquirida, el cliente deberá presentar el comprobante de pago de la mercancía. <\/p><p>El monto mínimo de compra para envío gratis es de $499.00 (CUATROCIENTOS NOVENTA Y NUEVE PESOS 00\/100 M.N.) con IVA<br\/>incluido.<\/p><p>Al ser la Sucursal Participante un punto de recolección de mercancía adquirida a través de <a href=\"http:\/\/www.mitzu.com\">www.kaiser.shop<\/a>, aplicará todo lo dispuesto en los presentes Términos y Condiciones.<\/p><p>Los productos que se comercializan en la página <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop <\/a>cuentan con una garantía original de<br\/>90 días naturales (3 meses) contra defectos de fábrica; sin embargo, al ser un cliente de <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a> se le otorgan 90 días adicionales. <\/p><p>Esto aplica cuando la causa de la devolución sea por defectos de fábrica.  <\/p><p>Para hacer válida la devolución, cambio o reparación del producto se deben cumplir las siguientes condiciones:<\/p><p>Envía tu documentación al correo<br\/>electrónico <a href=\"mailto:garantias@kaiser.shop\">garantias@kaiser.shop<\/a> <\/p><p>Las instancias para atender los casos de garantías se<br\/>describen a continuación:<\/p><p>Estos son los posibles escenarios en los casos de productos<br\/>que se ingresan a garantía:<\/p><p>Las causales por las que se puede<br\/>rechazar el producto ingresado son entre otras:<\/p><p><em><strong>KAISER®<\/strong><\/em> puede ofrecer la reparación del equipo o el envío de uno nuevo, excepto en el caso en que el producto esté roto o con plaga en donde no se ofrecerá la reparación.<\/p><p><em><strong>KAISER®<\/strong><\/em> absorbe el costo de recepción y el cliente deberá absorber el costo del envío de regreso del producto o el envío<br\/>de un producto nuevo además del costo de reparación.<\/p><p>El tiempo de reparación o solución al cliente no excederá los<br\/>10 días hábiles, ya sea que se trate de productos con garantía o con garantía vencida.<\/p><p>Si el problema de funcionamiento del producto está relacionado con el software del mismo, se llegaran a presentar problemas de vinculación o dudas en las instrucciones, se<br\/>puede optar por alguna de las siguientes opciones:<\/p><p>Para brindar un mejor servicio a nuestros clientes ofrecemos las siguientes opciones:<\/p><p>-  Contacto directo en el<br\/>sitio web <a href=\"http:\/\/www.steren.com.mx\/\" target=\"_blank\">www.kaiser.shop<\/a><\/p><p>-   Atención vía telefónica al 55<br\/>5118 4950 en los<br\/>siguientes días y horarios:<\/p><p>-   Lunes a viernes de 9:00 a<br\/>18:30<\/p><p>-   Sábados de 8:00 a 13:30<\/p><p>-   Para una mejor<br\/>atención es necesario contar con el número de pedido.  <\/p><p> <\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-subheading-1",
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-heading-1",
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-text-1",
+        "template--20402542674216__24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e-button-1"
+      ],
+      "custom_css": [
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "25dc9037-2a73-4756-a81b-ee81a6f21804",
+    "24b9d0ae-caea-4dba-bffd-9bdc8eb8f62e"
+  ]
+}

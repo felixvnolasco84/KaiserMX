@@ -1,0 +1,25 @@
+<div style="display:flex; flex-direcition: row; align-items:center; gap: 12px; margin-bottom: 20px;">
+    <div>
+        {% if product.metafields.custom.icon_flame.value %}
+        {{ product.metafields.custom.icon_flame.value | image_url: width: 96 | image_tag }}
+        {% endif %}
+    </div>
+
+    <div>
+        {% if product.metafields.custom.icon_flame_lighting.value %}
+        {{ product.metafields.custom.icon_flame_lighting.value | image_url: width: 96 | image_tag }}
+        {% endif %}
+    </div>
+
+    <div>
+        {% if product.metafields.custom.icon_circle_light.value %}
+        {{ product.metafields.custom.icon_circle_light.value | image_url: width: 96 | image_tag }}
+        {% endif %}
+    </div>
+    <div>
+        {% if product.metafields.custom.ksr_link.value %}
+        {{ product.metafields.custom.ksr_link.value | image_url: width: 96 | image_tag }}
+        {% endif %}
+    </div>
+    <span></span>
+</div>

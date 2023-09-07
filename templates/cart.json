@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main-cart": {
+      "type": "main-cart",
+      "custom_css": [
+        ""
+      ],
+      "settings": {
+        "cart_notes_enable": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        ""
+      ],
+      "settings": {
+        "heading": "Comprados juntos habitualmente",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-cart",
+    "product-recommendations"
+  ]
+}

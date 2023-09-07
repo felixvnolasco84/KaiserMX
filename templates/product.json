@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.sku.value }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "d8a1f0be-1902-4a39-a70a-a75f44d3ad18": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Sizing guide",
+            "icon": "ruler",
+            "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c361953f-4e50-4650-9c67-4fdd1bec0dec": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.reviews.rating | metafield_text }}{{ product.metafields.custom.sku.value }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "7ef681a5-4441-4798-a891-0c4dae383929": {
+          "type": "inventory_level",
+          "disabled": true,
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "always",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 10,
+            "inventory_notice_base": 20
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "variant_picker",
+        "d8a1f0be-1902-4a39-a70a-a75f44d3ad18",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "c361953f-4e50-4650-9c67-4fdd1bec0dec",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "7ef681a5-4441-4798-a891-0c4dae383929"
+      ],
+      "settings": {
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "35311508-1729-4e6a-803d-e9d5c76eabda": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "{padding: 100px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"specs\">\n  <div class=\"section\">\n    <div id=\"info1\" class=\"element\">\n      <div class=\"title\" onclick=\"see('info1')\">Dosis<\/div>\n      <div class=\"info\">\n        <p class=\"p1\"><span class=\"s1\">1 frasco Ashwagandha<br><\/span>3 al día<br><span class=\"s1\">1 frasco Reishi<br><\/span>1-2 al día<\/p>\n      <\/div>\n    <\/div>\n    <div id=\"info2\" class=\"element\">\n      <div class=\"title\" onclick=\"see('info2')\">Ingredientes<\/div>\n      <div class=\"info\">\n        <p class=\"p1\"><span class=\"s1\">Ingredientes Ashwaganda<br><\/span>Raíz de ashwagandha en polvo (Withania somnífera) y cápsula de origen vegetal Vcaps® (hipromelosa).<\/p>\n        <p class=\"p1\"><span class=\"s1\">Ingredientes Reishi<br><\/span>Hongo reishi en polvo (Ganoderma lucidum) y cápsula de origen vegetal Vcaps® (hipromelosa).<\/p>\n      <\/div>\n    <\/div>\n    <div class=\"element\" id=\"info3\">\n      <div class=\"title\" onclick=\"see('info3')\">Características<\/div>\n      <div class=\"info\">\n        <p class=\"p1\"><span class=\"s1\">1 frasco Ashwagandha<br><\/span>60 cápsulas<br><span class=\"s1\">1 frasco Reishi<br><\/span>60 cápsulas<\/p>\n        <p>Vegano - Sin gluten - Sin lácteos<br>Ingredientes naturales<br>Sin rellenos ni aditivos<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+      }
+    },
+    "8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ESPECIFICACIONES",
+            "content": "<p>{{ product.metafields.custom.caracter_sticas | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DESCRIPCIÓN",
+            "content": "<p>{{ product.metafields.custom.mas_informacion | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "MANUAL",
+            "content": "<p>{{ product.metafields.custom.instrucciones | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MANUAL",
+            "content": "{{ product.metafields.custom.test | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-4": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-0",
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-1",
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-2",
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-3",
+        "template--17937704026408__8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004-1683217995ebe46f00-4"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652093734c99de6a0": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "1652093734b8475903-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "heading": "Garantía 90 días",
+            "text": ""
+          }
+        },
+        "1652093734b8475903-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "Precios asegurados",
+            "text": ""
+          }
+        },
+        "1652093734b8475903-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "plane",
+            "heading": "Envíos a todo México",
+            "text": ""
+          }
+        },
+        "aab8f32a-3017-43d1-b9e0-f8011455ef5d": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652093734b8475903-0",
+        "1652093734b8475903-1",
+        "1652093734b8475903-2",
+        "aab8f32a-3017-43d1-b9e0-f8011455ef5d"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#000000",
+        "color_text": "#000000",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1683131674bb92520a": {
+      "type": "apps",
+      "blocks": {
+        "b69dde9b-31dc-460d-a385-0faba89f465a": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
+          "settings": {
+            "stars_fill_color": "#f1b824",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "Sé el primero en dejar tu reseña"
+          }
+        },
+        "9d9ecfdc-631e-4368-b442-5dd2dab87167": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b69dde9b-31dc-460d-a385-0faba89f465a",
+        "9d9ecfdc-631e-4368-b442-5dd2dab87167"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "COMPRADOS JUNTOS HABITUALMENTE",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "03dbd663-7a5e-4273-9c8b-c99ce621b56d": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "35311508-1729-4e6a-803d-e9d5c76eabda",
+    "8c79cccc-b8d1-4f59-aaa1-a9d2a24c6004",
+    "1652093734c99de6a0",
+    "1683131674bb92520a",
+    "product-recommendations",
+    "03dbd663-7a5e-4273-9c8b-c99ce621b56d"
+  ]
+}

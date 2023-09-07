@@ -1,0 +1,894 @@
+{
+  "sections": {
+    "e10bd557-0add-4351-b45f-a1d53fcdb54c": {
+      "type": "slideshow2",
+      "blocks": {
+        "template--17937703665960__e10bd557-0add-4351-b45f-a1d53fcdb54c-1684863717df8fa521-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Ultimos_Bafle2.png",
+            "mobile_image": "shopify:\/\/shop_images\/BannersMobile_Ultimo_Bafle.png",
+            "heading": "BAFLE <span style=\"color:red;\">15\"<\/span>",
+            "content": "Momentos únicos e irrepetibles, con el Bafle profesional recargable con tecnología KSR-LINK 15\". Con sus 25,000 PMPO, lograras que todo México te escuche.",
+            "sku": "KSW-4115",
+            "b_1": "Tecnología KSR-Link",
+            "b_2": "Bluetooth® con alcance de 10 m.",
+            "b_3": "Radio FM.",
+            "b_4": "",
+            "b_5": "",
+            "precio": "1,987.07",
+            "slide_link": "shopify:\/\/products\/bafle-kaiser-15-flame-lighting-con-25-000-w-pmpo-y-ksr-link",
+            "button_text": "Comprar ahora",
+            "button_link": "shopify:\/\/products\/bafle-profesional-recargable-kaiser-con-tecnologia-ksr-link-15-con-25-000w-pmpo-incluye-tripie-y-microfono",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": false
+          }
+        },
+        "994e0a38-85f6-4a60-8460-7473083b5f2a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Audifonos_7664777a-4b2c-4b8d-bc47-c4743cc91fe5.png",
+            "mobile_image": "shopify:\/\/shop_images\/BannersMobile_Ultimo_Audifonos.png",
+            "heading": "MÉXICO SUENA EN KAISER <span style=\"color:red;\"><\/span>",
+            "content": "Hacemos que la música suene mejor.",
+            "sku": "",
+            "b_1": "",
+            "b_2": "",
+            "b_3": "",
+            "b_4": "",
+            "b_5": "",
+            "precio": "",
+            "slide_link": "shopify:\/\/collections\/audifonos",
+            "button_text": "comprar audífonos",
+            "button_link": "shopify:\/\/products\/audifonos-bluetooth®-ksr®-con-sujetadores-sport",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": false
+          }
+        },
+        "d81ff696-306f-477e-86ad-d6df16e7d262": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Slide Heading",
+            "content": "Add descriptive text",
+            "sku": "Add Sku",
+            "b_1": "Add bullets",
+            "b_2": "Add bullets",
+            "b_3": "Add bullets",
+            "b_4": "Add bullets",
+            "b_5": "Add bullets",
+            "precio": "Precio",
+            "slide_link": "",
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_color": "accent2",
+            "button_outline": false,
+            "button_text_2": "Shop Now",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703665960__e10bd557-0add-4351-b45f-a1d53fcdb54c-1684863717df8fa521-0",
+        "994e0a38-85f6-4a60-8460-7473083b5f2a",
+        "d81ff696-306f-477e-86ad-d6df16e7d262"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-600",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "content_size": "medium",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16479710059d125d26": {
+      "type": "collection-tabs",
+      "blocks": {
+        "1647971005af520279-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bafles"
+          }
+        },
+        "1647971005af520279-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "audifonos"
+          }
+        },
+        "1647971005af520279-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "bocinas"
+          }
+        }
+      },
+      "block_order": [
+        "1647971005af520279-1",
+        "1647971005af520279-0",
+        "1647971005af520279-2"
+      ],
+      "custom_css": [
+        ".product-card .product-card-title {height: 80px;}"
+      ],
+      "settings": {
+        "heading": "LO MÁS BUSCADO",
+        "description": "",
+        "full_width": false,
+        "product_limit": 6,
+        "columns_desktop": 4,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "20771b2d-c721-430a-8367-5d0594b60bc6": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "20f811d0-0d04-4205-a3b5-03e918cab899": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 40,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Audífonos",
+            "heading_size": "h1"
+          }
+        },
+        "770dc874-852e-42e3-bbd8-7d46add53a69": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">Suena en la calle, suena en Kaiser.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/audifonos"
+          }
+        },
+        "2d00df2a-b3fa-46a6-855a-814978e7ff16": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Categoría audífonos"
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-1",
+        "770dc874-852e-42e3-bbd8-7d46add53a69",
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-3",
+        "2d00df2a-b3fa-46a6-855a-814978e7ff16",
+        "template--17937703665960__bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4-168598484223432269-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/01_Audifonos.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Audi_8694f45c-3aa8-4258-94e6-4d9d0b701573.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "47bd4e1c-8e12-42fd-a7f5-2d854612bcb2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "54e95624-77a3-4d07-87e9-717343078706": {
+          "type": "heading",
+          "settings": {
+            "text": "Micrófonos",
+            "heading_size": "h1"
+          }
+        },
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">Que todo México te escuche.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/gaming-zone"
+          }
+        },
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Categoría Gaming Zone"
+          }
+        }
+      },
+      "block_order": [
+        "54e95624-77a3-4d07-87e9-717343078706",
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-1",
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-2",
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-3",
+        "template--17937703665960__47bd4e1c-8e12-42fd-a7f5-2d854612bcb2-168598484223432269-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_Microfonos.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Micro_2a4c7f38-954c-47c7-abca-b71bff7bba7d.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4d86f4bc-6159-4cb5-ba38-9382d33f7d78": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Bafles",
+            "heading_size": "h1"
+          }
+        },
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "9c15d404-7863-48b2-84a5-2a0fd104f5d9": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">Hacemos que tu música suene mejor.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "comprar",
+            "button_link": "shopify:\/\/collections\/bafles"
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-0",
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-1",
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-2",
+        "9c15d404-7863-48b2-84a5-2a0fd104f5d9",
+        "template--17937703665960__4d86f4bc-6159-4cb5-ba38-9382d33f7d78-1686595874f92313cd-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/03_Bafles.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Bafles_f0d0ebd2-aa16-4d3a-a030-72bf5bd4d5e3.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9b72014f-c40a-4258-8a85-64aa7291b15e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "c6a6b343-f9f1-4584-8d0b-cbfc34c441f4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "627fb87e-4b84-4e11-9107-27d0175c871e": {
+          "type": "heading",
+          "settings": {
+            "text": "Accesorios",
+            "heading_size": "h1"
+          }
+        },
+        "ed7ad50e-0494-46c4-95ac-fdf04f796821": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "8981f7a6-1653-4d0c-8d5b-f9e310aab632": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">Todo lo que necesitas.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "8be61754-bcd1-4d34-b6d1-5d9b5f8daa36": {
+          "type": "button",
+          "settings": {
+            "button_text": "comprar",
+            "button_link": "shopify:\/\/collections\/accesorios-1"
+          }
+        }
+      },
+      "block_order": [
+        "c6a6b343-f9f1-4584-8d0b-cbfc34c441f4",
+        "627fb87e-4b84-4e11-9107-27d0175c871e",
+        "ed7ad50e-0494-46c4-95ac-fdf04f796821",
+        "8981f7a6-1653-4d0c-8d5b-f9e310aab632",
+        "8be61754-bcd1-4d34-b6d1-5d9b5f8daa36"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04_Accesorios.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Acce_6ff36ed1-30b3-459f-b798-a1a1408ffb96.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "2d97b06f-58a6-4a96-b698-25e3e6b78b16": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "70f502d3-9f2f-4595-b0b8-a4636a95c87b": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "db925958-8122-42d1-a7e3-9cf74a702481": {
+          "type": "heading",
+          "settings": {
+            "text": "Instrumentos Musicales",
+            "heading_size": "h1"
+          }
+        },
+        "846dfbe5-7340-45bc-b771-c4794275fec0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "dce2b55b-5a0c-42e1-a072-dd527776efa0": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">Que la música no pare de sonar.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "fba180cc-da4e-4c20-96f6-80df479bff99": {
+          "type": "button",
+          "settings": {
+            "button_text": "comprar",
+            "button_link": "shopify:\/\/collections\/instrumentos-musicales"
+          }
+        }
+      },
+      "block_order": [
+        "70f502d3-9f2f-4595-b0b8-a4636a95c87b",
+        "db925958-8122-42d1-a7e3-9cf74a702481",
+        "846dfbe5-7340-45bc-b771-c4794275fec0",
+        "dce2b55b-5a0c-42e1-a072-dd527776efa0",
+        "fba180cc-da4e-4c20-96f6-80df479bff99"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banners_Musicales.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Bocinas_521fed12-f9cb-45ef-a999-7905f314c03a.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e96e536e-dd5f-42d8-ad8a-364fa656f7a2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "fdc25292-b8e1-4dc3-81a4-4415ab09f123": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "a1b4edc6-648c-417c-9801-b73e37098071": {
+          "type": "heading",
+          "settings": {
+            "text": "Bocinas",
+            "heading_size": "h1"
+          }
+        },
+        "1054c8be-2f69-46b1-8764-8eea6eafd205": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "6b6fac1b-43d0-4af3-8c56-5556c7a50159": {
+          "type": "heading",
+          "settings": {
+            "text": "<span style=\"color:#C4C4C4;\">México suena en Kaiser.<\/span>",
+            "heading_size": "h4"
+          }
+        },
+        "81ae5d5c-dc07-47de-af69-f7734ed350e8": {
+          "type": "button",
+          "settings": {
+            "button_text": "comprar",
+            "button_link": "shopify:\/\/collections\/bocinas"
+          }
+        }
+      },
+      "block_order": [
+        "fdc25292-b8e1-4dc3-81a4-4415ab09f123",
+        "a1b4edc6-648c-417c-9801-b73e37098071",
+        "1054c8be-2f69-46b1-8764-8eea6eafd205",
+        "6b6fac1b-43d0-4af3-8c56-5556c7a50159",
+        "81ae5d5c-dc07-47de-af69-f7734ed350e8"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/05_Bocinas.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banners_Editable_Bocinas_521fed12-f9cb-45ef-a999-7905f314c03a.png",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "full_width": true,
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16518490956001c5fb": {
+      "type": "collection-list",
+      "custom_css": [
+        ".collection-card__image {border-radius: 15px;}"
+      ],
+      "settings": {
+        "heading": "CATEGORÍAS",
+        "description": "",
+        "collection_list": [
+          "audifonos",
+          "bafles",
+          "bocinas",
+          "gaming-zone",
+          "instrumentos-musicales",
+          "accesorios-1"
+        ],
+        "image_ratio": "portrait",
+        "layout": "carousel",
+        "style": "style1",
+        "content_alignment": "text-center",
+        "columns_desktop": 4,
+        "overlay_opacity": 5,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "164812231521d5c57e": {
+      "type": "testimonials",
+      "blocks": {
+        "1648122315e072ed7b-0": {
+          "type": "quote",
+          "settings": {
+            "stars": "4.5",
+            "text": "\"Compre una bocina y pues la verdad es un producto de excelente de excelente calidad de audio, tiene mucha fidelidad, nitidez y los bajos limpios se escucha muy bien.\"",
+            "author": "Jorge",
+            "image": "shopify:\/\/shop_images\/testimonio-bocina-jorge.png",
+            "retina": true
+          }
+        },
+        "1648122315e072ed7b-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"Acabo de comprar unos audifonos con bluetooth y están muy buenos.\"",
+            "author": "Mariana",
+            "image": "shopify:\/\/shop_images\/testimonio-audifonos-mariana.png",
+            "retina": true
+          }
+        },
+        "1648122315e072ed7b-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "4.5",
+            "text": "\"Super potente y execelente diseño del cajon\"",
+            "author": "Miguel",
+            "image": "shopify:\/\/shop_images\/testimonio-miguel.png",
+            "retina": true
+          }
+        },
+        "cfaed427-5105-424c-b9f8-6e9b178e1b93": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"Muy recomendable, excelente sonido potente y con mucha fidelidad.\"",
+            "author": "Ofelia",
+            "image": "shopify:\/\/shop_images\/testimonio-general.png",
+            "retina": true
+          }
+        },
+        "38572548-272f-4d85-aa81-805824c6dba8": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "stars": "",
+            "text": "Add your customer or client quote here to showcase them.",
+            "author": "Testimonial author",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "1648122315e072ed7b-0",
+        "1648122315e072ed7b-1",
+        "1648122315e072ed7b-2",
+        "cfaed427-5105-424c-b9f8-6e9b178e1b93",
+        "38572548-272f-4d85-aa81-805824c6dba8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: ALFARNTEXT; font-style: normal;}",
+        ".testimonials__testimonial p {font-size: 18px;}",
+        "img {display: inline-block; vertical-align: middle; max-width: 40%; height: auto; -ms-interpolation-mode: bicubic; border-radius: 10px 10px;}"
+      ],
+      "settings": {
+        "heading": "ORGULLO MEXICANO",
+        "description": "<p>No solo lo decimos nosotros<\/p>",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 4,
+        "color_bg": "#b9b9b9",
+        "color_text": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "31353693-6679-426c-b4d5-f5f8da15a7dd": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "1651925359656b69b4": {
+      "type": "featured-product",
+      "blocks": {
+        "165192535962c0e304-0": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "165192535962c0e304-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "165192535962c0e304-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "e95e48d6-03ad-4c9b-9e50-8c4866f16c65": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165192535962c0e304-0",
+        "165192535962c0e304-1",
+        "165192535962c0e304-2",
+        "e95e48d6-03ad-4c9b-9e50-8c4866f16c65"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "PRODUCTO DEL MES",
+        "description": "",
+        "product": "audifonos-kaiser®-azules-de-diadema-con-bluetooth",
+        "show_taxes_included": true,
+        "lightbox": false,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "5e89f86e-4c7c-4b2d-98d9-058adce71e7a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Ultimos_Bafle2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Bafles_1b5e530a-38ed-427a-b945-69784803a29e.png",
+            "subheading": "Bafles",
+            "heading": "Que tu música suene mejor.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/bafles",
+            "button_text": "comprar",
+            "button_link": "shopify:\/\/collections\/bafles",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        },
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bocinas_6f04763f-03db-45ab-8bd3-1a35f44f5664.png",
+            "mobile_image": "shopify:\/\/shop_images\/Bocinas_2d4e7d0d-673f-4ae1-b934-566efb61a0a4.png",
+            "subheading": "Bocinas",
+            "heading": "México suena en Kaiser.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/bocinas",
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/bocinas",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        },
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Accesorios_d6516cc9-4edd-49d1-8823-8844646aef8d.png",
+            "mobile_image": "shopify:\/\/shop_images\/Accesorios_0d5ac700-f48d-4df0-a31d-091bcaf04447.png",
+            "subheading": "Accesorios",
+            "heading": "Todo lo que necesitas.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/accesorios-1",
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/accesorios-1",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        },
+        "dc8e5273-93cd-47ab-9b0c-26b136a604bd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Audifonos_815adcab-0246-4efd-9288-ce666b2b0e37.png",
+            "mobile_image": "shopify:\/\/shop_images\/Audifonos_a42dfcfc-dc45-4e4a-ac78-ef5ded43fb94.png",
+            "subheading": "Audífonos",
+            "heading": "Suena en la calle, suena en Kaiser.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/audifonos",
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/audifonos",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        },
+        "b66457c1-b431-45d1-94a6-41d6cd603fe4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Microfonos_6b6a51b8-2c51-4542-803c-efd74e55a41a.png",
+            "mobile_image": "shopify:\/\/shop_images\/Microfonos_de059736-1299-42a0-bf89-0de43f23782a.png",
+            "subheading": "Micrófonos",
+            "heading": "Que todo México te escuche.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/gaming-zone",
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/gaming-zone",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        },
+        "cbd550fb-43ca-48aa-ac21-febf552e0720": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instrumentos_Musicales_ac38055b-c914-46b3-a368-3dad8185c343.png",
+            "mobile_image": "shopify:\/\/shop_images\/InstrumentosMusicales_e8f9d943-09e2-40e8-a72c-26f71b7772e5.png",
+            "subheading": "Instrumentos Musicales",
+            "heading": "Que la música no pare de sonar.",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/instrumentos-musicales",
+            "button_text": "Comprar",
+            "button_link": "shopify:\/\/collections\/instrumentos-musicales",
+            "button_color": "white",
+            "button_outline": false,
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_color_2": "white",
+            "button_outline_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-1",
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-2",
+        "template--17937703665960__5e89f86e-4c7c-4b2d-98d9-058adce71e7a-slide-3",
+        "dc8e5273-93cd-47ab-9b0c-26b136a604bd",
+        "b66457c1-b431-45d1-94a6-41d6cd603fe4",
+        "cbd550fb-43ca-48aa-ac21-febf552e0720"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "content_size": "medium",
+        "full_width": true,
+        "fade": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "overlay_opacity": 70,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1648022924b3ee204e": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1648022924da4799a5-0": {
+          "type": "text",
+          "settings": {
+            "text": "ENVÍO GRATIS A TODO MÉXICO DESDE $499",
+            "link": ""
+          }
+        },
+        "1648022924da4799a5-1": {
+          "type": "text",
+          "settings": {
+            "text": "ENVÍO GRATIS A TODO MÉXICO DESDE $499",
+            "link": ""
+          }
+        },
+        "1648022924da4799a5-2": {
+          "type": "text",
+          "settings": {
+            "text": "ENVÍO GRATIS A TODO MÉXICO DESDE $499",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648022924da4799a5-0",
+        "1648022924da4799a5-1",
+        "1648022924da4799a5-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "30s",
+        "text_size": 24,
+        "outline_text": false,
+        "color_bg": "#990d0d",
+        "color_text": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "e10bd557-0add-4351-b45f-a1d53fcdb54c",
+    "16479710059d125d26",
+    "20771b2d-c721-430a-8367-5d0594b60bc6",
+    "20f811d0-0d04-4205-a3b5-03e918cab899",
+    "bca94a3b-2d8c-4ad7-9da8-e91308d8e3b4",
+    "47bd4e1c-8e12-42fd-a7f5-2d854612bcb2",
+    "4d86f4bc-6159-4cb5-ba38-9382d33f7d78",
+    "9b72014f-c40a-4258-8a85-64aa7291b15e",
+    "2d97b06f-58a6-4a96-b698-25e3e6b78b16",
+    "e96e536e-dd5f-42d8-ad8a-364fa656f7a2",
+    "16518490956001c5fb",
+    "164812231521d5c57e",
+    "31353693-6679-426c-b4d5-f5f8da15a7dd",
+    "1651925359656b69b4",
+    "5e89f86e-4c7c-4b2d-98d9-058adce71e7a",
+    "1648022924b3ee204e"
+  ]
+}

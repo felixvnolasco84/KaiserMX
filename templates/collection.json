@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Audifonos_7664777a-4b2c-4b8d-bc47-c4743cc91fe5.png"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "product-grid"
+  ]
+}

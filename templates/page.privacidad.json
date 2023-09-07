@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "25dc9037-2a73-4756-a81b-ee81a6f21804": {
+      "type": "contact-form",
+      "blocks": {
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        },
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-0",
+        "template--17937703960872__25dc9037-2a73-4756-a81b-ee81a6f21804-1689112735619bddda-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Facturación",
+        "description": "<p>Contáctenos sobre cualquier tema relacionado con nuestra empresa o nuestros servicios.<\/p>",
+        "show_phone_number": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9284a7ef-b2fb-4081-8821-1f664a45d304": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Política de privacidad",
+            "size": "h3"
+          }
+        },
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Información general<\/h3><p>GRUPO COMRAP con domicilio en San Juan #763 Int. 5, Granjas Modernas, 07460, Gustavo A Madero, México, México, es la entidad responsable del tratamiento de tus datos personales y hace de tu conocimiento la presente Política de Privacidad en términos de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (en adelante “la Ley”) y sus disposiciones reglamentarias vigentes.<\/p><h3>Sección 1 - ¿Qué hacemos con su información?<\/h3><p>Cuando compras algo de nuestra tienda, como parte del proceso de compra y venta, recopilamos la información personal que tu nos das, como tu nombre, dirección y dirección de correo electrónico.<\/p><p>Cuando navegas por nuestra tienda, también recibimos automáticamente la dirección del protocolo de internet (IP) de tu computadora para proporcionarnos información que nos ayude a conocer su navegador y sistema operativo.<\/p><p>Email marketing (si aplica): con tu permiso, podemos enviarte correos electrónicos sobre nuestra tienda, nuevos productos y otras actualizaciones.<\/p><h3>Sección 2 – Consentimiento<\/h3><p><strong>¿Cómo obtienen mi consentimiento?<\/strong><\/p><p>Cuando nos proporcionas información personal para completar una transacción, ingresas tu tarjeta de crédito o débito, hagas un pedido, dejes tus datos para una entrega o devuelvas una compra, implicamos que tu consientes a recopilarla y usarla sólo por esa razón específica. Si solicitamos tu información personal por una razón secundaria, como por ejemplo la comercialización, te pediremos directamente su consentimiento expresado o le daremos la oportunidad de decir que no.<\/p><p><strong>¿Cómo retiro mi consentimiento?<\/strong><\/p><p>Si después de la autorización, cambias de opinión, puedes retirar tu consentimiento en cualquier momento, poniéndote en contacto con nosotros en <a href=\"mailto:ventas@baflesksr.com\">ventas@baflesksr.com<\/a> o al 55 5118 4950.<\/p><h3>Sección 3 - Divulgación<\/h3><p>Podemos revelar tu información personal si la ley nos exige hacerlo o si tu violas nuestros términos de servicio.<\/p><h3>Sección 4 - Shopify<\/h3><p>Nuestra tienda está alojada en Shopify inc. Nos proporcionan la plataforma de comercio electrónico en línea que nos permite venderte nuestros productos y servicios.<\/p><p>Tus datos se almacenan a través del almacenamiento de datos de Shopify, la aplicación general de Shopify almacenan tus datos en un servidor seguro detrás de un firewall.<\/p><p><strong>Pago:<\/strong><\/p><p>Si seleccionas una pasarela de pago directo para completar tu compra, Shopify almacena los datos de tu tarjeta de crédito. Se cifra a través del estándar de seguridad de datos de la industria de tarjetas de pago (pci-dss). Tus datos de transacción de compra se almacenan sólo el tiempo que sea necesario para completar su transacción de compra. Una vez que se haya completado, se eliminará la información de la transacción de compra.<\/p><p>Todas las pasarelas de pago directo se adhieren a los estándares establecidos por pci-dss administrados por el pci security standards council, que es un esfuerzo conjunto de marcas como Visa, Mastercard, American express y Discover.<\/p><p>Los requisitos pci-dss ayudan a garantizar el manejo seguro de la información de la tarjeta de crédito por nuestra tienda y sus proveedores de servicios.<\/p><p>Para más información, también puede leer los términos de servicio de shopify (<a href=\"https:\/\/www.shopify.com\/legal\/terms\">https:\/\/www.shopify.com\/legal\/terms<\/a>) o políticas de privacidad (<a href=\"https:\/\/www.shopify.com\/legal\/privacy\">https:\/\/www.shopify.com\/legal\/privacy<\/a>).<\/p><h3>Sección 5 - Servicios de terceros<\/h3><p>En general, los terceros proveedores utilizados por nosotros solo recopilarán, usarán y divulgarán su información en la medida necesaria para permitirles realizar los servicios que nos proporcionan. Sin embargo, ciertos proveedores de servicios de terceros, como gateways de pago y otros procesadores de transacciones de pago, tienen sus propias políticas de privacidad con respecto a la información que debemos proporcionarles para sus transacciones relacionadas con la compra.<\/p><p>Para estos proveedores, te recomendamos que leas sus políticas de privacidad para que puedas entender la manera en que tu información personal será manejada por estos proveedores. En particular, recuerda que ciertos proveedores pueden estar ubicados en o tienen instalaciones que están ubicadas en una jurisdicción diferente a la tuya o a la de nosotros. Por lo tanto, si decides continuar con una transacción que involucra los servicios de un proveedor de servicios de terceros, tu información puede estar sujeta a las leyes de la jurisdicción en la que se encuentra ese proveedor de servicios o sus instalaciones.<\/p><p>Una vez que abandones el sitio web de nuestra tienda o sea redirigido a un sitio web o aplicación de terceros, ya no se rige por esta política de privacidad ni por las condiciones del servicio de nuestro sitio web<\/p><p><strong>Links:<\/strong><\/p><p>Al hacer clic en los enlaces en nuestra tienda, que puede dirigir a distancia de nuestro sitio. No somos responsables de las prácticas de privacidad de otros sitios y te alentamos a leer sus declaraciones de privacidad.<\/p><h3>Sección 6 – Seguridad<\/h3><p>Para proteger tu información personal, tomamos las precauciones razonables y seguimos las mejores prácticas de la industria para asegurarnos de que no sean perdidas, maltratadas, accedidas, reveladas, alteradas o destruidas de manera inapropiada.<\/p><p>Si nos proporcionas la información de su tarjeta de crédito, la información se cifra utilizando la tecnología de capa de socket segura (ssl) y se almacena con un cifrado aes-256. Aunque ningún método de transmisión a través de internet o almacenamiento electrónico es 100% seguro, seguimos todos los requisitos de pci-dss e implementamos otros estándares de la industria generalmente aceptados.<\/p><h3>Sección 7 – Cookies<\/h3><p>Aquí hay una lista de cookies que usamos. Los hemos incluido aquí para que pueda elegir si desea inhabilitar las cookies o no.<\/p><ul><li>_session_id, token único, sessional, permite a shopify almacenar información sobre su sesión (referrer, landing page, etc).<\/li><li>_shopify_visit, no se mantienen datos, persistente durante 30 minutos desde la última visita, utilizado por el rastreador de stats interno de nuestro proveedor de sitio web para registrar el número de visitas.<\/li><li>_shopify_uniq, sin datos almacenados, expira la medianoche (relativa al visitante) del día siguiente, cuenta el número de visitas a una tienda por un solo cliente.<\/li><li>Carrito, ficha única, persistente durante 2 semanas, almacena información sobre el contenido de su carrito.<\/li><li>_secure_session_id, token único.<\/li><li>sesiónStorefront_digest, token único, indefinido si la tienda tiene una contraseña, se utiliza para determinar si el visitante actual tiene acceso.<\/li><\/ul><h3>Sección 8 - Edad de consentimiento<\/h3><p>Al usar este sitio, declaras que tienes por lo menos la mayoría de edad en tu estado o provincia de residencia y nos has dado tu consentimiento para permitir cualquiera de tus dependientes menores para usar este sitio.<\/p><h3>Sección 9 - Cambios a esta política de privacidad<\/h3><p>Nos reservamos el derecho de modificar esta política de privacidad en cualquier momento, por lo que debes revisarla con frecuencia. Los cambios y aclaraciones surtirán efecto inmediatamente después de su publicación en este sitio web. Si realizamos cambios significativos en esta política, te notificaremos aquí que se ha actualizado, para que sepas qué información recopilamos, cómo la usamos y en qué circunstancias, si la hay, usamos y \/ o divulgamos eso.<\/p><p>Si nuestra tienda es adquirida o fusionada con otra empresa, tu información puede ser transferida a los nuevos propietarios para que podamos seguir vendiéndote nuestros productos.<\/p><h3>Sección 10 - Información sobre normatividad y regulación aplicable<\/h3><p>Para mayor información sobre la normatividad vigente y recursos legales a los que tiene acceso como Titular de Datos Personales, podrás acudir al Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI), a través del teléfono 01-800-INAI o en su página web: <a href=\"http:\/\/www.inai.mx\/\">www.inai.mx<\/a><\/p><h3>Sección 11 - Preguntas e información de contacto<\/h3><p>Si deseas: acceder, corregir, enmendar o eliminar cualquier información personal que tengamos sobre ti, registrar una queja o simplemente desear más información, póngase en contacto con nosotros:<\/p><p> <\/p><p><strong>GRUPO COMRAP<br\/><\/strong>Dirección: San Juan #763 Int. 5, Granjas Modernas<strong><br\/><\/strong>Ciudad: Gustavo A Madero México México, CP: 07460<br\/>Correo: <a href=\"mailto:ventas@baflesksr.com\">ventas@baflesksr.com<\/a><br\/>Teléfono: 55 5118 4950<br\/><a href=\"https:\/\/www.baflesksr.com\/\">https:\/\/www.baflesksr.com\/<\/a><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-subheading-1",
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-heading-1",
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-text-1",
+        "template--20510218879272__9284a7ef-b2fb-4081-8821-1f664a45d304-button-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "25dc9037-2a73-4756-a81b-ee81a6f21804",
+    "9284a7ef-b2fb-4081-8821-1f664a45d304"
+  ]
+}

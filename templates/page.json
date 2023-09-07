@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main"
+  ]
+}
