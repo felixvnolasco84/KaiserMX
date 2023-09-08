@@ -67,7 +67,7 @@
           "settings": {
             "collection": "instrumentos-musicales",
             "display_type": "carousel",
-            "product_limit": 12,
+            "product_limit": 6,
             "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": true,
@@ -79,7 +79,7 @@
         "template--20444099019048__26318b56-9bde-40b7-aeeb-ac3c97b47b83-collection-1"
       ],
       "custom_css": [
-        ".outline {margin-top: 24px;}"
+
       ],
       "settings": {
         "heading": "15% de Descuento en productos seleccionado de Instrumentos Musicales.",
@@ -182,7 +182,7 @@
     "7311f58b-979a-4cdf-8277-d478d4f96bc9": {
       "type": "headband",
       "custom_css": [
-        "h2 {text-align: center;}"
+        "h2 {text-align: center; margin-top: 64px; margin-bottom: 64px; background: #0ecf42; background: linear-gradient(to right, #0ecf42 0%, #c9c8c7 50%, #cf1512 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
       ],
       "settings": {
         "headband_title": "Envio gratis en todas tus compras a partir de $499"
