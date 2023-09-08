@@ -6,7 +6,7 @@
 %}
 
 {% assign bg_image = section.settings.bg_image %}
-{% assign bg_image_mobile = section.settings.bg_image %}
+{% assign bg_image_mobile = section.settings.bg_image_mobile %}
 
 {{ 'page-header.css' | asset_url | stylesheet_tag }}
 
@@ -15,7 +15,7 @@
     <div class="small-12 columns">
       <div class="page-header {% if bg_image %}page-header__has-bg{% endif %}">
         {% if bg_image %}
-          <div class="page-header__bg" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
+          <div class="page-header__bg header-desktop" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
             {% assign small_width = bg_image.src.height | times: '375' | divided_by: bg_image.src.width %}
             {% assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height %}
             {% assign width = '375x' | append: small_width | append: ',' | append: master_width %}
@@ -23,11 +23,11 @@
           </div>
         {% endif %}
         {% if bg_image_mobile %}
-          <div class="page-header__bg" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
-            {% assign small_width = bg_image.src.height | times: '375' | divided_by: bg_image.src.width %}
-            {% assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height %}
+          <div class="page-header__bg header-mobile" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
+            {% assign small_width = bg_image_mobile.src.height | times: '375' | divided_by: bg_image_mobile.src.width %}
+            {% assign master_width = bg_image_mobile.src.width | append: 'x' | append: bg_image_mobile.src.height %}
             {% assign width = '375x' | append: small_width | append: ',' | append: master_width %}
-            {%- render 'responsive-image', image: bg_image, sizes: width -%}
+            {%- render 'responsive-image', image: bg_image_mobile, sizes: width -%}
           </div>
         {% endif %}
       </div>

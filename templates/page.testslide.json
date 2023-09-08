@@ -19,8 +19,8 @@
     "f7648787-853f-42dd-8694-885202e66147": {
       "type": "header-description",
       "custom_css": [
-        "h2 {text-align: center;}",
-        "p {text-align: left; margin-left: 4px; font-size: 24px;}"
+        "@media screen and (max-width: 749px) {h2 {text-align: center;}p {text-align: center; margin-left: 4px; font-size: 24px;} }",
+        "@media screen and (min-width: 750px) {h2 {text-align: center;}p {text-align: left; margin-left: 4px; font-size: 24px;} }"
       ],
       "settings": {
         "full_width": true,
@@ -32,13 +32,14 @@
     "51319dce-664c-473d-89a8-ff5f4f38f1c6": {
       "type": "header-image",
       "custom_css": [
-        "@media screen and (max-width: 749px) {img {min-height: auto; object-fit: scale-down; }}",
-        "@media screen and (min-width: 749px) {img {min-height: 400px; }}"
+        "@media screen and (max-width: 749px) {img {min-height: auto; object-fit: scale-down; min-height: 260px; } .header-desktop {display: none; }}",
+        "@media screen and (min-width: 750px) {img {min-height: 400px; } .header-mobile {display: none; }}"
       ],
       "settings": {
         "full_width": false,
         "overlay_opacity": 0,
-        "bg_image": "shopify:\/\/shop_images\/BannerKaiserBafles.png"
+        "bg_image": "shopify:\/\/shop_images\/BannerKaiserBafles.png",
+        "bg_image_mobile": "shopify:\/\/shop_images\/Bafles15.png"
       }
     },
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42": {
@@ -129,6 +130,7 @@
       ],
       "settings": {
         "heading": "",
+        "view_more": "Ver más",
         "description": "",
         "full_width": false,
         "disable_top_spacing": true,
