@@ -32,7 +32,8 @@
     "51319dce-664c-473d-89a8-ff5f4f38f1c6": {
       "type": "header-image",
       "custom_css": [
-        "img {min-height: 400px;}"
+        "@media screen and (max-width: 749px) {img {min-height: auto; object-fit: scale-down; }}",
+        "@media screen and (min-width: 749px) {img {min-height: 400px; }}"
       ],
       "settings": {
         "full_width": false,

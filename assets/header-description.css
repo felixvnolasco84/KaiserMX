@@ -69,7 +69,7 @@ Utilities
 .page-header.page-header__has-bg {
   position: relative;
   color: #fff;
-  background-color: var(--color-accent);
+  background-color: transparent !important;
   min-height: 300px;
 }
 
