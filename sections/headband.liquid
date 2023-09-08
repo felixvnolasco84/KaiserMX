@@ -1,0 +1,28 @@
+{{ 'headband.css' | asset_url | stylesheet_tag }}
+
+<section class="headband-section">
+    <h2>{{ section.settings.headband_title }}</h2>    
+</section>
+
+
+
+{% schema %}
+    {
+        "name": "Headband Section",
+        "settings": [
+            {
+            "type": "text",
+            "label": "Headband Title",
+            "id": "headband_title",
+            "default": "Headband Title"
+            }
+        ],
+        "presets": [
+            {
+            "name": "Headband Section",
+            "category": "Custom"
+            }
+        ]
+    }
+
+{% endschema %}

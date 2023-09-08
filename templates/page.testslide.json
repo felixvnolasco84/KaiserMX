@@ -71,6 +71,15 @@
         "disable_bottom_spacing": false
       }
     },
+    "7311f58b-979a-4cdf-8277-d478d4f96bc9": {
+      "type": "headband",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "headband_title": "Envio gratis en todas tus compras a partir de $499"
+      }
+    },
     "6b53c683-aec8-4e8d-bdb2-392260f8f62e": {
       "type": "promotions-static",
       "settings": {
@@ -98,7 +107,7 @@
         "policy_description_4": "No aplica con otras promociones y\/o cupones.",
         "policy_description_5": "Vigencia de la promoción: 08 al 15 de septiembre del 2023.",
         "policy_description_6": "Válida en la República Mexicana.",
-        "disclaimer": "Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
+        "disclaimer": "*Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
       }
     }
   },
@@ -106,6 +115,7 @@
     "template-header",
     "main",
     "7d2c5ef2-636d-4564-b29d-d7c427e00ca6",
+    "7311f58b-979a-4cdf-8277-d478d4f96bc9",
     "6b53c683-aec8-4e8d-bdb2-392260f8f62e",
     "73adb722-dac6-4b6b-9e37-7da02d229d5e"
   ]
