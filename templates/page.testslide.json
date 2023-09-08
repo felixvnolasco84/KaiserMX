@@ -71,11 +71,34 @@
         "disable_bottom_spacing": false
       }
     },
+    "6b53c683-aec8-4e8d-bdb2-392260f8f62e": {
+      "type": "promotions-static",
+      "settings": {
+        "promotions_policies_title": "POLÍTICAS DE PROMOCIONES",
+        "promotions_policies_description": "En KAISER® nos reservamos el derecho de cancelar cualquier pedido realizado bajo los siguientes supuestos:",
+        "policy_description_1": "Cuando el usuario viole los términos y condiciones.",
+        "policy_description_2": "Cuando el usuario no cubra el importe total del pedido solicitado.",
+        "policy_description_3": "Cuando el usuario pretenda causar daños a KAISER o a un tercero.",
+        "policy_description_4": "Cuando se detecte la posible comisión de un delito.",
+        "policy_description_5": "Cuando por errores involuntarios en nuestros sistemas se lancen promociones no autorizadas en perjuicio del negocio.",
+        "policy_description_6": "Cuando se detecte que las promociones lanzadas por nuestros sistemas tengan un descuento mayor al 90% sobre el valor del pedido.",
+        "policy_description_7": "Cuando la conducta del usuario afecte la experiencia de otros clientes.",
+        "policy_description_8": "Cuando la conducta del usuario afecte o dañe la reputación de KAISER.",
+        "policy_description_9": "Cuando el producto solicitado no esté disponible.",
+        "disclaimer": ""
+      }
+    },
     "73adb722-dac6-4b6b-9e37-7da02d229d5e": {
       "type": "promotions",
       "settings": {
-        "promotions_policies_title": "Septiembre 2023¡Viva México, viva el ADN MX!",
-        "promotions_policies": ""
+        "promotions_policies_title": "Septiembre 2023 ¡Viva México, viva el ADN MX!",
+        "policy_description_1": "Aplica el 15% de descuento en producto seleccionado de las categorias Bafles y Bocinas.",
+        "policy_description_2": "Aplica el 10% de descuento en producto seleccionado en la cateoría Micrófonos.",
+        "policy_description_3": "Válido en producto seleccionado comprando en línea.",
+        "policy_description_4": "No aplica con otras promociones y\/o cupones.",
+        "policy_description_5": "Vigencia de la promoción: 08 al 15 de septiembre del 2023.",
+        "policy_description_6": "Válida en la República Mexicana.",
+        "disclaimer": "Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
       }
     }
   },
@@ -83,6 +106,7 @@
     "template-header",
     "main",
     "7d2c5ef2-636d-4564-b29d-d7c427e00ca6",
+    "6b53c683-aec8-4e8d-bdb2-392260f8f62e",
     "73adb722-dac6-4b6b-9e37-7da02d229d5e"
   ]
 }
