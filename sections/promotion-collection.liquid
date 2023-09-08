@@ -110,7 +110,7 @@
   {%- if show_view_all and more_in_collection -%}
     <div class="text-center">
       <a class="button{% if button_outline %} outline{%- endif -%}" href="{{ featured_collection.url }}">
-        <span>{{ 'sections.featured_collection.shop_collection' | t: collection: featured_collection.title }}</span>
+        <span>{{ section.settings.view_more }}</span>
       </a>
     </div>
   {% endif %}
@@ -126,6 +126,12 @@
         "id": "heading",
         "label": "Heading",
         "default": "Promotion Collection"
+      },
+      {
+        "type": "text",
+        "id": "view_more",
+        "label": "Label for \"View more\" button",
+        "default": "Ver más"
       },
       {
         "type": "richtext",
