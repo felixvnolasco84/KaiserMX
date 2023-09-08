@@ -1,3 +1,11 @@
+{%- liquid
+  assign full_width = section.settings.full_width
+  assign overlay_opacity = section.settings.overlay_opacity
+  assign bg_image = false
+%}
+
+{% assign bg_image = section.settings.bg_image %}
+
 {{ 'page-header.css' | asset_url | stylesheet_tag }}
 
 <div class="page-header--wrapper">
@@ -51,7 +59,8 @@
     {
     "type": "image_picker",
     "id": "bg_image",
-    "label": "Background image"    
+    "label": "Background image",
+    "info": "Changes the image on pages."
     }
     ],
     "presets": [

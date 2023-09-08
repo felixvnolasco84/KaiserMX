@@ -4672,3 +4672,7 @@ dl {
     gap: 10px !important;
   }
 }
+
+a[title~="Promociones"] {
+  color: red !important;
+}

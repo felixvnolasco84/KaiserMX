@@ -23,7 +23,9 @@
     {% assign description = '<p>' | append: page_description | append: '</p>' %}
   {% endif %}
 {% endif %}
-{{ 'page-header.css' | asset_url | stylesheet_tag }}
+
+{{ 'header-description.css' | asset_url | stylesheet_tag }}
+
 <div class="page-header--wrapper">
   <div class="row{% if full_width %} full-width-row-full{% endif %}">
     <div class="small-12 columns">
@@ -36,10 +38,10 @@
             {%- render 'responsive-image', image: bg_image, sizes: width -%}
           </div>
         {% endif %}
-        <div class="page-header__inner">
+        
           <h1 class="thb-shop-title">{{ heading }}</h1>            
           <p>{{ section.settings.page_description }}</p>
-        </div>
+        
       </div>
     </div>
   </div>

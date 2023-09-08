@@ -18,16 +18,26 @@
     },
     "f7648787-853f-42dd-8694-885202e66147": {
       "type": "header-description",
-      "disabled": true,
       "custom_css": [
+        "h2 {text-align: center;}",
         "p {text-align: left; margin-left: 4px; font-size: 24px;}"
       ],
       "settings": {
         "full_width": true,
         "overlay_opacity": 25,
         "display_description": true,
-        "page_description": "Realiza tus mejores combinaciones.",
-        "bg_image": "shopify:\/\/shop_images\/Banner_Instrumentos_Musicales.png"
+        "page_description": "¡Realiza tus mejores combinaciones!"
+      }
+    },
+    "51319dce-664c-473d-89a8-ff5f4f38f1c6": {
+      "type": "header-image",
+      "custom_css": [
+        "img {min-height: 400px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 0,
+        "bg_image": "shopify:\/\/shop_images\/BannerKaiserBafles.png"
       }
     },
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42": {
@@ -114,10 +124,10 @@
         ".outline {margin-top: 24px;}"
       ],
       "settings": {
-        "heading": "10% de Descuento en productos seleccionado de Micrófonos.",
+        "heading": "",
         "description": "",
         "full_width": false,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
@@ -130,7 +140,7 @@
             "collection": "top-product",
             "display_type": "grid",
             "product_limit": 12,
-            "columns_desktop": 3,
+            "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": false,
             "mobile_swipe": true
@@ -151,16 +161,25 @@
         "disable_bottom_spacing": true
       }
     },
+    "7311f58b-979a-4cdf-8277-d478d4f96bc9": {
+      "type": "headband",
+      "custom_css": [
+        "h2 {text-align: center; padding: 32px; background: #0ecf42; background: linear-gradient(to right, #0ecf42 0%, #c9c8c7 50%, #cf1512 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
+      ],
+      "settings": {
+        "headband_title": "Envio gratis en todas tus compras a partir de $499"
+      }
+    },
     "fcfc51d6-bd20-4ae5-a8f1-fb99156b798b": {
       "type": "featured-collection",
       "blocks": {
         "template--20444099019048__fcfc51d6-bd20-4ae5-a8f1-fb99156b798b-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "bafles",
+            "collection": "newest",
             "display_type": "carousel",
             "product_limit": 12,
-            "columns_desktop": 3,
+            "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": true,
             "mobile_swipe": true
@@ -178,16 +197,7 @@
         "description": "",
         "full_width": false,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "7311f58b-979a-4cdf-8277-d478d4f96bc9": {
-      "type": "headband",
-      "custom_css": [
-        "h2 {text-align: center; padding: 32px; background: #0ecf42; background: linear-gradient(to right, #0ecf42 0%, #c9c8c7 50%, #cf1512 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
-      ],
-      "settings": {
-        "headband_title": "Envio gratis en todas tus compras a partir de $499"
+        "disable_bottom_spacing": false
       }
     },
     "6b53c683-aec8-4e8d-bdb2-392260f8f62e": {
@@ -239,12 +249,13 @@
     "template-header",
     "main",
     "f7648787-853f-42dd-8694-885202e66147",
+    "51319dce-664c-473d-89a8-ff5f4f38f1c6",
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42",
     "26318b56-9bde-40b7-aeeb-ac3c97b47b83",
     "3e897a33-86d1-4848-88ad-32ba6fb662f3",
     "c43bf974-01cb-447a-b576-9b38c324eda2",
-    "fcfc51d6-bd20-4ae5-a8f1-fb99156b798b",
     "7311f58b-979a-4cdf-8277-d478d4f96bc9",
+    "fcfc51d6-bd20-4ae5-a8f1-fb99156b798b",
     "6b53c683-aec8-4e8d-bdb2-392260f8f62e",
     "73adb722-dac6-4b6b-9e37-7da02d229d5e"
   ]
