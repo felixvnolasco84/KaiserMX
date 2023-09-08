@@ -52,7 +52,7 @@
           "settings": {
             "collection": "instrumentos-musicales",
             "display_type": "carousel",
-            "product_limit": 4,
+            "product_limit": 12,
             "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": true,
@@ -82,7 +82,7 @@
           "settings": {
             "collection": "gaming-zone",
             "display_type": "carousel",
-            "product_limit": 4,
+            "product_limit": 12,
             "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": true,
@@ -112,7 +112,7 @@
           "settings": {
             "collection": "top-product",
             "display_type": "grid",
-            "product_limit": 4,
+            "product_limit": 12,
             "columns_desktop": 3,
             "show_view_all": true,
             "button_outline": false,
