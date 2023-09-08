@@ -227,8 +227,7 @@ https://flickity.metafizzy.co
 }
 
 .featured-collection__inner {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+display: grid;  
 }
 
 .featured-collection__inner-has-titlecard.display-type--grid {

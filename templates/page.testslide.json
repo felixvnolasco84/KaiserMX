@@ -130,7 +130,8 @@
         "description": "",
         "full_width": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "bg_image": "shopify:\/\/shop_images\/BannerKaiserMicros.png"
       }
     },
     "c43bf974-01cb-447a-b576-9b38c324eda2": {
