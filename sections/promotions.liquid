@@ -1,9 +1,7 @@
 {{ 'promotions.css' | asset_url | stylesheet_tag }}
 
-{% assign top_spacing = section.settings.top_spacing | plus: 'px' %}
-{% assign bottom_spacing = section.settings.bottom_spacing | plus: 'px' %}
 
-<section class="promotions-policies" style="margin-top: {{ top_spacing }}; margin-bottom: {{ bottom_spacing }};">
+<section class="promotions-policies">
     <h2>{{ section.settings.promotions_policies_title }}</h2>
     <ul>
         <li>            
@@ -30,82 +28,63 @@
 
 {% schema %}
 {
-    "name": "Promotions Policies",
-    "settings": [
-        {
-            "type": "text",
-            "label": "Section Title",
-            "id": "promotions_policies_title",
-            "default": "Promotions Policies"
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 1",
-            "id": "policy_description_1",
-            "default": "Aplica el 15% de descuento en producto seleccionado de las categorias Bafles y Bocinas."
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 2",
-            "id": "policy_description_2",
-            "default": "Aplica el 10% de descuento en producto seleccionado en la cateoría Micrófonos."
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 3",
-            "id": "policy_description_3",
-            "default": "Válido en producto seleccionado comprando en línea."
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 4",
-            "id": "policy_description_4",
-            "default": "No aplica con otras promociones y/o cupones."
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 5",
-            "id": "policy_description_5",
-            "default": "Vigencia de la promoción: 08 al 15 de septiembre del 2023."
-        },
-        {
-            "type": "text",
-            "label": "Promotion Description 6",
-            "id": "policy_description_6",
-            "default": "Válida en la República Mexicana."
-        },
-        {
-            "type": "text",
-            "label": "Disclaimer",
-            "id": "disclaimer",
-            "default": "Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
-        },
-        {
-            "type": "range",
-            "label": "Top Spacing",
-            "id": "top_spacing",
-            "default": 0,
-            "min": 0,
-            "max": 50,
-            "unit": "px",
-             "step": 1
-        },
-        {
-            "type": "range",
-            "label": "Bottom Spacing",
-            "id": "bottom_spacing",
-            "default": 0,
-            "min": 0,
-            "max": 50,
-            "unit": "px",
-            "step": 1
-        }
-    ],
-    "presets": [
-        {
-            "name": "Promotions Policies",
-            "category": "Custom"
-        }
-    ]
+"name": "Promotions Policies",
+"settings": [
+{
+"type": "text",
+"label": "Section Title",
+"id": "promotions_policies_title",
+"default": "Promotions Policies"
+},
+{
+"type": "text",
+"label": "Promotion Description 1",
+"id": "policy_description_1",
+"default": "Aplica el 15% de descuento en producto seleccionado de las categorias Bafles y Bocinas."
+},
+{
+"type": "text",
+"label": "Promotion Description 2",
+"id": "policy_description_2",
+"default": "Aplica el 10% de descuento en producto seleccionado en la cateoría Micrófonos."
+},
+{
+"type": "text",
+"label": "Promotion Description 3",
+"id": "policy_description_3",
+"default": "Válido en producto seleccionado comprando en línea."
+},
+{
+"type": "text",
+"label": "Promotion Description 4",
+"id": "policy_description_4",
+"default": "No aplica con otras promociones y/o cupones."
+},
+{
+"type": "text",
+"label": "Promotion Description 5",
+"id": "policy_description_5",
+"default": "Vigencia de la promoción: 08 al 15 de septiembre del 2023."
+},
+{
+"type": "text",
+"label": "Promotion Description 6",
+"id": "policy_description_6",
+"default": "Válida en la República Mexicana."
+},
+{
+"type": "text",
+"label": "Disclaimer",
+"id": "disclaimer",
+"default": "Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
 }
+],
+"presets": [
+{
+"name": "Promotions Policies",
+"category": "Custom"
+}
+]
+}
+
 {% endschema %}

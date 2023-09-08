@@ -1,5 +1,5 @@
 {{ 'promotions.css' | asset_url | stylesheet_tag }}
-<section class="promotions-policies" style="margin-top: {{ top_spacing }}; margin-bottom: {{ bottom_spacing }};">
+<section class="promotions-policies">
     <h2>{{ section.settings.promotions_policies_title }}</h2>
     <p>{{ section.settings.promotions_policies_description }}</p>
     <ul>
@@ -108,27 +108,7 @@
 "type": "text",
 "label": "Disclaimer",
 "id": "disclaimer"
-},
-{
-        "type": "range",
-        "label": "Top Spacing",
-        "id": "top_spacing",
-        "default": 0,
-        "min": 0,
-        "max": 50,
-        "unit": "px",
-        "step": 1
-    },
-    {
-        "type": "range",
-        "label": "Bottom Spacing",
-        "id": "bottom_spacing",
-        "default": 0,
-        "min": 0,
-        "max": 50,
-        "unit": "px",
-        "step": 1
-    }
+}
 ],
 "presets": [
 {
