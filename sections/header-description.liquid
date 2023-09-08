@@ -37,16 +37,16 @@
           </div>
         {% endif %}
         <div class="page-header__inner">
-          <h1 class="thb-shop-title">{{ heading }}</h1>                    
-          {{ description }}          
+          <h1 class="thb-shop-title">{{ heading }}</h1>            
+          <p>{{ section.settings.page_description }}</p>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> 
 {% schema %}
 {
-  "name": "Header Description",
+  "name": "Header description",
   "settings": [
     {
       "type": "checkbox",
@@ -84,11 +84,24 @@
       "info": "Displays the page SEO description text under page title. [Learn more](https://help.shopify.com/en/manual/online-store/themes/theme-structure/pages#edit-the-search-engine-listing-for-a-webpage)"
     },
     {
-      "type": "image_picker",
-      "id": "bg_image",
-      "label": "Background image",
-      "info": "Changes the image on pages."
+      "type": "text",
+      "label": "Page description",
+      "id": "page_description",
+      "default": "lorem ipsum"
+    },
+    
+    {
+    "type": "image_picker",
+    "id": "bg_image",
+    "label": "Background image",
+    "info": "Changes the image on pages."
     }
-  ]
-}
+    ],
+    "presets": [
+    {
+    "name": "Header description",
+    "category": "Custom"
+    }
+    ]
+    }
 {% endschema %}

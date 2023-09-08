@@ -2,6 +2,7 @@
   "sections": {
     "template-header": {
       "type": "template-header",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "overlay_opacity": 17,
@@ -11,7 +12,21 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "f7648787-853f-42dd-8694-885202e66147": {
+      "type": "header-description",
+      "custom_css": [
+        "p {text-align: left; margin-left: 4px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 25,
+        "display_description": true,
+        "page_description": "Realiza tus mejores combinaciones.",
+        "bg_image": "shopify:\/\/shop_images\/Banner_Instrumentos_Musicales.png"
       }
     },
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42": {
@@ -207,6 +222,7 @@
   "order": [
     "template-header",
     "main",
+    "f7648787-853f-42dd-8694-885202e66147",
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42",
     "26318b56-9bde-40b7-aeeb-ac3c97b47b83",
     "3e897a33-86d1-4848-88ad-32ba6fb662f3",
