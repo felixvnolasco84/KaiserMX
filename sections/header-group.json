@@ -19,7 +19,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        "a[title~=\"Promociones\"] {color: red;}"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/logo-rojo-kaiser.png",

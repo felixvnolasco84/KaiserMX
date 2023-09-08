@@ -1,8 +1,7 @@
 {{ 'promotions.css' | asset_url | stylesheet_tag }}
 
-
-<section class="promotions-policies">
-    <h2>{{ section.settings.promotions_policies_title }}</h2>
+<section class="promotions-policies" style="background-image: url({{ section.settings.background_image | img_url: 'master' }});">
+    <h2 class="title">{{ section.settings.promotions_policies_title }}</h2>
     <ul>
         <li>            
             <p>{{ section.settings.policy_description_1 }}</p>
@@ -77,6 +76,11 @@
 "label": "Disclaimer",
 "id": "disclaimer",
 "default": "Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
+},
+{
+      "type": "image_picker",  
+      "label": "Background Image",
+      "id": "background_image"      
 }
 ],
 "presets": [

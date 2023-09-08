@@ -18,6 +18,7 @@
     },
     "f7648787-853f-42dd-8694-885202e66147": {
       "type": "header-description",
+      "disabled": true,
       "custom_css": [
         "p {text-align: left; margin-left: 4px; font-size: 24px;}"
       ],
@@ -52,7 +53,7 @@
         ".outline {margin-top: 24px;}"
       ],
       "settings": {
-        "heading": "Combinación Bafles",
+        "heading": "",
         "description": "",
         "full_width": false,
         "disable_top_spacing": false,
@@ -78,6 +79,7 @@
       "block_order": [
         "template--20444099019048__26318b56-9bde-40b7-aeeb-ac3c97b47b83-collection-1"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -182,7 +184,7 @@
     "7311f58b-979a-4cdf-8277-d478d4f96bc9": {
       "type": "headband",
       "custom_css": [
-        "h2 {text-align: center; margin-top: 64px; margin-bottom: 64px; background: #0ecf42; background: linear-gradient(to right, #0ecf42 0%, #c9c8c7 50%, #cf1512 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
+        "h2 {text-align: center; padding: 32px; background: #0ecf42; background: linear-gradient(to right, #0ecf42 0%, #c9c8c7 50%, #cf1512 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}"
       ],
       "settings": {
         "headband_title": "Envio gratis en todas tus compras a partir de $499"
@@ -190,6 +192,12 @@
     },
     "6b53c683-aec8-4e8d-bdb2-392260f8f62e": {
       "type": "promotions-static",
+      "custom_css": [
+        ".promotions-policies {border-radius: 4px; margin-bottom: 32px;}",
+        "h2 {color: white;}",
+        "ul li {color: white;}",
+        "p {color: white;}"
+      ],
       "settings": {
         "promotions_policies_title": "POLÍTICAS DE PROMOCIONES",
         "promotions_policies_description": "En KAISER® nos reservamos el derecho de cancelar cualquier pedido realizado bajo los siguientes supuestos:",
@@ -202,20 +210,28 @@
         "policy_description_7": "Cuando la conducta del usuario afecte la experiencia de otros clientes.",
         "policy_description_8": "Cuando la conducta del usuario afecte o dañe la reputación de KAISER.",
         "policy_description_9": "Cuando el producto solicitado no esté disponible.",
-        "disclaimer": ""
+        "disclaimer": "",
+        "background_image": "shopify:\/\/shop_images\/Banners_Editable_Bafles.png"
       }
     },
     "73adb722-dac6-4b6b-9e37-7da02d229d5e": {
       "type": "promotions",
+      "custom_css": [
+        ".promotions-policies {border-radius: 4px; margin-bottom: 32px;}",
+        "h2 {color: white;}",
+        "ul li {color: white;}",
+        "p {color: white;}"
+      ],
       "settings": {
         "promotions_policies_title": "Septiembre 2023 ¡Viva México, viva el ADN MX!",
-        "policy_description_1": "Aplica el 15% de descuento en producto seleccionado de las categorias Bafles y Bocinas.",
-        "policy_description_2": "Aplica el 10% de descuento en producto seleccionado en la cateoría Micrófonos.",
+        "policy_description_1": "Aplica el 15% de descuento en producto seleccionado de la categoría Bafles.",
+        "policy_description_2": "Aplica el 10% de descuento en producto seleccionado en la categoría Micrófonos.",
         "policy_description_3": "Válido en producto seleccionado comprando en línea.",
         "policy_description_4": "No aplica con otras promociones y\/o cupones.",
-        "policy_description_5": "Vigencia de la promoción: 08 al 15 de septiembre del 2023.",
+        "policy_description_5": "Vigencia de la promoción: 08 al 16 de septiembre del 2023.",
         "policy_description_6": "Válida en la República Mexicana.",
-        "disclaimer": "*Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso."
+        "disclaimer": "*Las promociones, precios, disponibilidad y especificaciones están sujetos a cambio sin previo aviso.",
+        "background_image": "shopify:\/\/shop_images\/Banner_Ultimos_Bafle2.png"
       }
     }
   },

@@ -1,0 +1,64 @@
+{{ 'page-header.css' | asset_url | stylesheet_tag }}
+
+<div class="page-header--wrapper">
+  <div class="row{% if full_width %} full-width-row-full{% endif %}">
+    <div class="small-12 columns">
+      <div class="page-header {% if bg_image %}page-header__has-bg{% endif %}">
+        {% if bg_image %}
+          <div class="page-header__bg" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
+            {% assign small_width = bg_image.src.height | times: '375' | divided_by: bg_image.src.width %}
+            {% assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height %}
+            {% assign width = '375x' | append: small_width | append: ',' | append: master_width %}
+            {%- render 'responsive-image', image: bg_image, sizes: width -%}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div> 
+{% schema %}
+{
+  "name": "Header Image",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Make section full width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Catalog page"
+    },
+    {
+      "type": "paragraph",
+      "content": "Learn more about [catalog page](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/change-catalog-page)"
+    },
+    {
+      "type": "header",
+      "content": "Pages"
+    },
+    {
+    "type": "image_picker",
+    "id": "bg_image",
+    "label": "Background image"    
+    }
+    ],
+    "presets": [
+    {
+    "name": "Header Image",
+    "category": "Custom"
+    }
+    ]
+    }
+{% endschema %}
