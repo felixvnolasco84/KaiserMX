@@ -1,28 +1,48 @@
 {{ 'headband.css' | asset_url | stylesheet_tag }}
 
-<section class="headband-section">
+{% assign top_spacing = section.settings.top_spacing | plus: 'px' %}
+{% assign bottom_spacing = section.settings.bottom_spacing | plus: 'px' %}
+
+<section class="headband-section" style="margin-top: {{ top_spacing }}; margin-bottom: {{ bottom_spacing }};">
     <h2>{{ section.settings.headband_title }}</h2>    
 </section>
-
-
 
 {% schema %}
     {
         "name": "Headband Section",
         "settings": [
             {
-            "type": "text",
-            "label": "Headband Title",
-            "id": "headband_title",
-            "default": "Headband Title"
+                "type": "text",
+                "label": "Headband Title",
+                "id": "headband_title",
+                "default": "Headband Title"
+            },
+            {
+                "type": "range",
+                "id": "top_spacing",
+                "label": "Top Spacing",
+                "min": 0,
+                "max": 50,
+                "default": 0,
+                "unit": "px",
+                "step": 1
+            },
+            {
+                "type": "range",
+                "id": "bottom_spacing",
+                "label": "Bottom Spacing",
+                "min": 0,
+                "max": 50,
+                "default": 0,
+                "unit": "px",
+                "step": 1
             }
         ],
         "presets": [
             {
-            "name": "Headband Section",
-            "category": "Custom"
+                "name": "Headband Section",
+                "category": "Custom"
             }
         ]
     }
-
 {% endschema %}
