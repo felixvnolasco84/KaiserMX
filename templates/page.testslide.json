@@ -55,7 +55,7 @@
         "heading": "Combinación Bafles",
         "description": "",
         "full_width": false,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
