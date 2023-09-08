@@ -19,7 +19,7 @@
     "f7648787-853f-42dd-8694-885202e66147": {
       "type": "header-description",
       "custom_css": [
-        "p {text-align: left; margin-left: 4px;}"
+        "p {text-align: left; margin-left: 4px; font-size: 24px;}"
       ],
       "settings": {
         "full_width": true,
