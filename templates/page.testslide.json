@@ -102,16 +102,16 @@
         "disable_bottom_spacing": true
       }
     },
-    "3e897a33-86d1-4848-88ad-32ba6fb662f3": {
-      "type": "featured-collection",
+    "8a92a971-0b19-4637-bd23-b890b8e7ac5d": {
+      "type": "promotion-collection",
       "blocks": {
-        "template--20444099019048__3e897a33-86d1-4848-88ad-32ba6fb662f3-collection-1": {
+        "template--20444099019048__8a92a971-0b19-4637-bd23-b890b8e7ac5d-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "gaming-zone",
+            "collection": "audifonos-in-stock",
             "display_type": "carousel",
             "product_limit": 12,
-            "columns_desktop": 4,
+            "columns_desktop": 3,
             "show_view_all": true,
             "button_outline": true,
             "mobile_swipe": true
@@ -119,9 +119,10 @@
         }
       },
       "block_order": [
-        "template--20444099019048__3e897a33-86d1-4848-88ad-32ba6fb662f3-collection-1"
+        "template--20444099019048__8a92a971-0b19-4637-bd23-b890b8e7ac5d-collection-1"
       ],
       "custom_css": [
+        ".gallery__item-content {min-width: 638px;}",
         ".outline {margin-top: 24px;}"
       ],
       "settings": {
@@ -253,7 +254,7 @@
     "51319dce-664c-473d-89a8-ff5f4f38f1c6",
     "689564c0-dd10-477f-b2fc-1c2cde3a0f42",
     "26318b56-9bde-40b7-aeeb-ac3c97b47b83",
-    "3e897a33-86d1-4848-88ad-32ba6fb662f3",
+    "8a92a971-0b19-4637-bd23-b890b8e7ac5d",
     "c43bf974-01cb-447a-b576-9b38c324eda2",
     "7311f58b-979a-4cdf-8277-d478d4f96bc9",
     "fcfc51d6-bd20-4ae5-a8f1-fb99156b798b",
