@@ -2,9 +2,11 @@
   assign full_width = section.settings.full_width
   assign overlay_opacity = section.settings.overlay_opacity
   assign bg_image = false
+  assign bg_image_mobile = false
 %}
 
 {% assign bg_image = section.settings.bg_image %}
+{% assign bg_image_mobile = section.settings.bg_image %}
 
 {{ 'page-header.css' | asset_url | stylesheet_tag }}
 
@@ -13,6 +15,14 @@
     <div class="small-12 columns">
       <div class="page-header {% if bg_image %}page-header__has-bg{% endif %}">
         {% if bg_image %}
+          <div class="page-header__bg" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
+            {% assign small_width = bg_image.src.height | times: '375' | divided_by: bg_image.src.width %}
+            {% assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height %}
+            {% assign width = '375x' | append: small_width | append: ',' | append: master_width %}
+            {%- render 'responsive-image', image: bg_image, sizes: width -%}
+          </div>
+        {% endif %}
+        {% if bg_image_mobile %}
           <div class="page-header__bg" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}">
             {% assign small_width = bg_image.src.height | times: '375' | divided_by: bg_image.src.width %}
             {% assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height %}
@@ -59,8 +69,14 @@
     {
     "type": "image_picker",
     "id": "bg_image",
-    "label": "Background image",
-    "info": "Changes the image on pages."
+    "label": "Desktop image",
+    "info": "None."
+    },
+    {
+    "type": "image_picker",
+    "id": "bg_image_mobile",
+    "label": "Mobile image",
+    "info": "None."
     }
     ],
     "presets": [
