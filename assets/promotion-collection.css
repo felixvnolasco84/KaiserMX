@@ -226,8 +226,29 @@ https://flickity.metafizzy.co
   max-width: none;
 }
 
-.featured-collection__inner {
-display: grid;  
+.promotion-collection__inner {
+  display: grid;
+}
+
+@media screen and (max-width: 749px) {
+  .promotion-collection__inner {    
+    grid-template-columns: repeat(1, auto);
+
+    .promotion-image-container {
+      width: 100%;
+      margin-bottom: 32px;
+
+      .promotion-image {
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .promotion-collection__inner {    
+    grid-template-columns:  638px 1fr;    
+  }
 }
 
 .featured-collection__inner-has-titlecard.display-type--grid {

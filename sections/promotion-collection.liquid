@@ -73,12 +73,14 @@
       {%- endfor -%}
     {%- endcapture -%}
   {%- endif -%}
-  <div style="grid-template-columns: repeat(2, auto);" class="featured-collection__inner display-type--{{ display_type }} {% if title_cards.size > 0 %} featured-collection__inner-has-titlecard{% endif %}">
+  <div class="promotion-collection__inner display-type--{{ display_type }} {% if title_cards.size > 0 %} featured-collection__inner-has-titlecard{% endif %}">
     {% if display_type == 'grid' %}
       {{ featured_collection_title_card }}
     {% endif %}
     {%- for block in collections -%}
-      <div style="background-image: url({{ section.settings.bg_image | img_url: '638x430'  }}); margin-right: 32px;"></div>
+      <div class="promotion-image-container">
+        <img class="promotion-image" src="{{section.settings.bg_image | img_url: '638x430'}}" alt="">
+      </div>
       <div class="featured-collection__collection" {{ block.shopify_attributes }}>
         <ul id="product-grid-{{ section.id }}-{{ block.id }}" class="products row {{ display_type }}">
           {% if display_type == 'carousel' %}

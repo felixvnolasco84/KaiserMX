@@ -65,6 +65,7 @@
       ],
       "settings": {
         "heading": "",
+        "view_more": "Ver más",
         "description": "",
         "full_width": false,
         "disable_top_spacing": false,
@@ -96,6 +97,7 @@
       ],
       "settings": {
         "heading": "15% de Descuento en productos seleccionado de Instrumentos Musicales.",
+        "view_more": "Ver más",
         "description": "",
         "full_width": false,
         "disable_top_spacing": true,
@@ -142,7 +144,7 @@
           "settings": {
             "collection": "top-product",
             "display_type": "grid",
-            "product_limit": 12,
+            "product_limit": 4,
             "columns_desktop": 4,
             "show_view_all": true,
             "button_outline": false,
@@ -158,6 +160,7 @@
       ],
       "settings": {
         "heading": "Productos TOP",
+        "view_more": "Ver más",
         "description": "",
         "full_width": false,
         "disable_top_spacing": false,
@@ -197,6 +200,7 @@
       ],
       "settings": {
         "heading": "Productos Nuevos",
+        "view_more": "Ver más",
         "description": "",
         "full_width": false,
         "disable_top_spacing": false,
